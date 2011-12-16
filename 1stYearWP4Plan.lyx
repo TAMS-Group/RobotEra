@@ -255,33 +255,44 @@ status open
 \end_layout
 
 \begin_layout Section
-Planned Tasks for WP5 (1st Year)
+Planned Tasks for WP4
 \end_layout
 
 \begin_layout BeginFrame
-T5.1 (UHAM, ORU, UOS, UA) M1-M9
-\end_layout
-
-\begin_layout FrameSubtitle
-Robot control SW architecture for evaluation
+Tasks
 \end_layout
 
 \begin_layout Itemize
-define Abstract Robot Control Architecture (ARCA)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-provide interfaces
+T4.1: Set-up of the robotic platform for domestic environments (UHAM, SSSA,
+ MLAB, UOP, STM, M3-44)
 \end_layout
 
 \begin_layout Itemize
-specify control and information flow between components (UML)
+T4.2: Design of control strategies for navigation (MLAB, RT, SSSA, M3-44)
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-proved remote interface to the robot
+T4.3: Design of control strategies for grasping and manipulation (UHAM, UOP,
+ M3-44)
+\end_layout
+
+\begin_layout Itemize
+T4.4: Design of intrefaces for Human Robot Interaction (UOP, RT, M3-44)
+\end_layout
+
+\begin_layout Itemize
+T4.5: Early prototype integration and implementation of functionalities (UHAM,
+ SSSA, UOP, MLAB, RT, M7-9)
+\end_layout
+
+\begin_layout Itemize
+T4.6: Preparation of the domestic robotic platfrom for the first experimental
+ loop (UHAM, MLAB, UOP, M10-12)
+\end_layout
+
+\begin_layout Itemize
+T4.7: Refinement and development for the second experimental loop (UHAM,
+ UOP, M30-32)
 \end_layout
 
 \begin_layout EndFrame
@@ -289,123 +300,25 @@ proved remote interface to the robot
 \end_layout
 
 \begin_layout BeginFrame
-T5.2 (UHAM, ORU, UOS, UA) M1-M33
+T4.1 Set-up of the robotic platform for domestic environments
 \end_layout
 
-\begin_layout FrameSubtitle
-Simulation infrastructure
-\end_layout
-
-\begin_layout Itemize
-provide simulation infrastructure
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-stage 1:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-3D robot model with models of real world sensors
+\begin_layout Subtitle
+UHAM, SSSA, MLAB, UOP, STM, M3-44
 \end_layout
 
 \begin_layout Itemize
-one room, table, cups, cans
+integrate mobile platform, robotic arm and end-effector (payload etc.
+ according to WP2)
 \end_layout
 
 \begin_layout Itemize
-physical model and properties of objects
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-T5.3 (UHAM, ORU, UOS, UA) M1-M33
-\end_layout
-
-\begin_layout FrameSubtitle
-Sensor data acquisition
-\end_layout
-
-\begin_layout Itemize
-physical robot
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-arrange initial experiments and scenarios for WP2 (to gain multi-level symbolic
- representations from raw sensor data)
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-store acquired data centrally
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-T5.4 (UHAM, ORU, UOS, UA, UL, HITeC) M1-M36
-\end_layout
-
-\begin_layout FrameSubtitle
-Demonstrators
-\end_layout
-
-\begin_layout Itemize
-Stage 1:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-simulated demonstrator
-\end_layout
-
-\begin_layout Itemize
-*partly physical demonstrator (if possible)
-\end_layout
-
-\begin_layout Itemize
-integrate achievements from WP1-WP4 into artificial cognitive system (ACS)
-\end_layout
-
-\end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-T5.5 (UHAM, ORU, UOS, UA, UL) M1-M36
-\end_layout
-
-\begin_layout FrameSubtitle
-Benchmarking and evaluation
-\end_layout
-
-\begin_layout Itemize
-Stage 1:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-use experiences for reproducing robot activities in essentially identical
- environments
-\end_layout
-
-\begin_layout Itemize
-Demo 1.1: Serve-a-coffee
-\begin_inset Foot
+integrate communication module (for connectivity with AmI)
+\begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-see details in B1.1
+What's this
 \end_layout
 
 \end_inset
@@ -414,68 +327,27 @@ see details in B1.1
 \end_layout
 
 \begin_layout Itemize
-Demo 1.2: Clear-coffee-mugs-from-table
-\end_layout
-
-\end_deeper
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout Section
-Summary
-\end_layout
-
-\begin_layout BeginFrame
-Planned
+integrate additional sensors (stereo cameras, infra-red?)
 \end_layout
 
 \begin_layout Itemize
-Simulated robot platform
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-3D model of PR2
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Extension: Kinect, Infrared camera (more?)
+integrate HRI (touch screen, microphone, speakers, LED (see T4.4)
 \end_layout
 
 \begin_layout Itemize
-Integration of further sensor into simulation
+integrate additional HW (handle, case, tray?)
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-3D environment restaurant/kitchen
+integrate security mechanisms (securitiy buttons, bumbers)
 \end_layout
 
-\begin_deeper
 \begin_layout Itemize
-Tables, chairs, objects (static, dynamic)
+implement friendly, acceptable cover (see WP2)
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
-3D human models (static, dynamic, random)
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-2D/3D Navigation (platform, arms)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Collision avoidance
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Remote interface to the robot
+define middleware architecture
 \end_layout
 
 \begin_layout EndFrame
@@ -483,51 +355,118 @@ Remote interface to the robot
 \end_layout
 
 \begin_layout BeginFrame
-Planned (cont.)
+T4.2 Design of control strategies for navigation
+\end_layout
+
+\begin_layout Subtitle
+MLAB, RT, SSSA, M3-44
 \end_layout
 
 \begin_layout Itemize
-Year one demonstrator2D/3D Navigation (platform, arms)
+measure and integrate robot characteristics (shape, dynamics) into CogniDrive
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+What provides it?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+design people tracking and following
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.3 Design of control strategies for grasping and manipulation
+\end_layout
+
+\begin_layout Subtitle
+UHAM, UOP, M3-44
+\end_layout
+
+\begin_layout Itemize
+object detection via stereo-vision, SIFT-feature, 3D laser ranger
+\end_layout
+
+\begin_layout Itemize
+learning manipulation strategies (object ontology), handle unknown objects
+\end_layout
+
+\begin_layout Itemize
+use results of HTN planning algorithm
+\end_layout
+
+\begin_layout Itemize
+online learning (UOP)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.4 Design of intrefaces for Human Robot Interaction
+\end_layout
+
+\begin_layout Subtitle
+UOP, RT, M3-44
+\end_layout
+
+\begin_layout Itemize
+investigate sophisticated HRI (via screen, e.g.
+ emotional state, language)
+\end_layout
+
+\begin_layout Itemize
+investigate natural language interaction
+\end_layout
+
+\begin_layout Itemize
+explore Julius speech recognition system
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.5 Early prototype integration and implementation of functionalities
+\end_layout
+
+\begin_layout Subtitle
+UHAM, SSSA, UOP, MLAB, RT, M7-9
+\end_layout
+
+\begin_layout Itemize
+integrate outcomes of previous tasks into robotic platform (navigation ,
+ manipulation, interaction, learning)
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-collision avoidance
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Remote interface to the robot
+SW and firmware integration for different parts
 \end_layout
 
 \begin_layout Itemize
-Year one demonstrator
+Control strategy
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+high-level
 \end_layout
 
-\begin_layout Itemize
-Abstraction layer for all integrated components
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-Integration onto the real robot
-\end_layout
 
-\begin_layout Itemize
-Abstraction layer for all integrated components
-\end_layout
-
-\begin_layout Itemize
-Integration onto the real robot
-\end_layout
-
-\begin_layout Itemize
-Define Abstract Robot Control Architecture (ARCA) with other project participant
-s
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Provide interfaces
 \end_layout
 
 \end_deeper
@@ -535,46 +474,43 @@ Provide interfaces
 
 \end_layout
 
-\begin_layout Section
-Issues
+\begin_layout BeginFrame
+T4.6 Preparation of the domestic robotic platfrom for the first experimental
+ loop
+\end_layout
+
+\begin_layout Subtitle
+UHAM, MLAB, UOP, M10-12
+\end_layout
+
+\begin_layout Itemize
+prepare robotic platform for experiments in Italy and Sweden
+\end_layout
+
+\begin_layout Itemize
+shipping
+\end_layout
+
+\begin_layout Itemize
+testing
+\end_layout
+
+\begin_layout EndFrame
+
 \end_layout
 
 \begin_layout BeginFrame
-Issues
+T4.7 Refinement and development for the second experimental loop
+\end_layout
+
+\begin_layout Subtitle
+UHAM, UOP, M30-32
 \end_layout
 
 \begin_layout Itemize
-What is needed by other WP?
+integrate results of first experimental loop for improvments (T4.1-4.5)
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Interfaces?
-\end_layout
-
-\begin_layout Itemize
-Interfaces?
-\end_layout
-
-\begin_layout Itemize
-Interfaces?
-\end_layout
-
-\begin_layout Itemize
-...
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Abstraction level of sensory data?
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-raw data, symbolic data..?
-\end_layout
-
-\end_deeper
 \begin_layout EndFrame
 
 \end_layout

@@ -172,17 +172,6 @@ Anfangen sollte man mit Übersichtswerken.
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "/Users/sebastian/Documents/_BibPapers/Rockel,/Users/sebastian/Documents/_BibPapers/Agent2010,/Users/sebastian/Documents/_BibPapers/ICRA2009,/Users/sebastian/Documents/_BibPapers/ICRA2010,/Users/sebastian/Documents/_BibPapers/IROS2009,/Users/sebastian/Documents/_BibPapers/IROS2010,/Users/sebastian/Documents/_BibPapers/ISR2010,/Users/sebastian/Documents/_BibPapers/ModRobots2009,/Users/sebastian/Documents/_BibPapers/Robotics2009,/Users/sebastian/Documents/_BibPapers/Robotics2010,/Users/sebastian/Documents/_BibPapers/RoboticsGeneral,/Users/sebastian/Documents/_BibPapers/ICRA2009"
-options "alpha"
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout EndFrame
 
 \end_layout
