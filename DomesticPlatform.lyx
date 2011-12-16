@@ -1,0 +1,259 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usepackage[ uniWZ, tams, blockBG, engl, conference]{tamsBeamer}
+%-- options	------------------------------------------------------
+%	tams	|	- TAMS		publication
+%	engl		- english strings	[german]
+%	uniWZ	|	- uni		watermark
+%	tamsWZ	|	- tams+uni	watermark
+%	cinacsWZ	- cinacs+uni	watermark
+%	secToc	|	- toc repetition at each section
+%	secTocA		- -"-, all sections: show
+%			  replacement for toc in short docs
+%	subsecToc	- toc repetition at each subsection
+%	secNum  	- (sub)-section numbering
+%	fullstep	- always step through items
+%	noFoot		- footline	off
+%	noPage		- page numbers	off
+%	noAuth		- author	off
+%	conference	- footline with \foottitle{...}
+%	blockBG	|	- block, example etc. background
+%	blockRound	- -"-, rounded+shadow
+\end_preamble
+\options t
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "RACE: Platforms and State of Simulation"
+\pdf_author "Sebastian Rockel, Denis Klimentjew"
+\pdf_subject "RACE Kick-off Meeting, Dezember 2011"
+\pdf_keywords "Robot, PR2, ROS, Restaurant"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language danish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\listings_params "basicstyle={\sffamily\small},breakatwhitespace=true,breaklines=true,captionpos=b,commentstyle={\color{red}\emph},escapeinside={\%*}{*)},frameshape={RYR}{y}{y}{RYR},identifierstyle={\color{black}\bfseries},keywordstyle={\color{blue}\bfseries},numbers=none,numbersep=5pt,numberstyle={\color{black}\tiny},showspaces=false,showstringspaces=false,showtabs=false,stepnumber=1,stringstyle={\ttfamily\color{red}\bfseries\emph},tabsize=2"
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Title..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "subs/title/title_presentation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Outline..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Outline
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+PR2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{subs/pres1}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+ROS
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "subs/ROS_Part.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Further Sensors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+input{subs/pres2}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Appendix..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset CommandInset include
+LatexCommand include
+filename "subs/appendix_presentation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
