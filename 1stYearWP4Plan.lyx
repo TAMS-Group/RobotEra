@@ -179,7 +179,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename images/personmonth.png
+	filename images/PersonMonth.png
 	width 100text%
 
 \end_inset
@@ -208,7 +208,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename images/deliverables.png
+	filename images/Deliverables.png
 	width 100text%
 
 \end_inset
@@ -237,7 +237,18 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename images/milestones.png
+	filename images/MS1.png
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename images/MS2.png
 	width 100text%
 
 \end_inset
@@ -277,7 +288,7 @@ T4.3: Design of control strategies for grasping and manipulation (UHAM, UOP,
 \end_layout
 
 \begin_layout Itemize
-T4.4: Design of intrefaces for Human Robot Interaction (UOP, RT, M3-44)
+T4.4: Design of interfaces for Human Robot Interaction (UOP, RT, M3-44)
 \end_layout
 
 \begin_layout Itemize
@@ -339,7 +350,7 @@ integrate additional HW (handle, case, tray?)
 \end_layout
 
 \begin_layout Itemize
-integrate security mechanisms (securitiy buttons, bumbers)
+integrate security mechanisms (security buttons, bumbers)
 \end_layout
 
 \begin_layout Itemize
