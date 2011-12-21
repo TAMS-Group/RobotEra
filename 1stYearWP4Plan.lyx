@@ -164,7 +164,7 @@ Content..
 \end_layout
 
 \begin_layout Section
-Project Overview
+Overview
 \end_layout
 
 \begin_layout BeginFrame
@@ -314,7 +314,7 @@ T4.7: Refinement and development for the second experimental loop (UHAM,
 T4.1 Set-up of the robotic platform for domestic environments
 \end_layout
 
-\begin_layout Subtitle
+\begin_layout FrameSubtitle
 UHAM, SSSA, MLAB, UOP, STM, M3-44
 \end_layout
 
@@ -369,7 +369,7 @@ define middleware architecture
 T4.2 Design of control strategies for navigation
 \end_layout
 
-\begin_layout Subtitle
+\begin_layout FrameSubtitle
 MLAB, RT, SSSA, M3-44
 \end_layout
 
@@ -399,7 +399,7 @@ design people tracking and following
 T4.3 Design of control strategies for grasping and manipulation
 \end_layout
 
-\begin_layout Subtitle
+\begin_layout FrameSubtitle
 UHAM, UOP, M3-44
 \end_layout
 
@@ -427,7 +427,7 @@ online learning (UOP)
 T4.4 Design of intrefaces for Human Robot Interaction
 \end_layout
 
-\begin_layout Subtitle
+\begin_layout FrameSubtitle
 UOP, RT, M3-44
 \end_layout
 
@@ -452,7 +452,7 @@ explore Julius speech recognition system
 T4.5 Early prototype integration and implementation of functionalities
 \end_layout
 
-\begin_layout Subtitle
+\begin_layout FrameSubtitle
 UHAM, SSSA, UOP, MLAB, RT, M7-9
 \end_layout
 
@@ -490,7 +490,7 @@ T4.6 Preparation of the domestic robotic platfrom for the first experimental
  loop
 \end_layout
 
-\begin_layout Subtitle
+\begin_layout FrameSubtitle
 UHAM, MLAB, UOP, M10-12
 \end_layout
 
@@ -514,7 +514,7 @@ testing
 T4.7 Refinement and development for the second experimental loop
 \end_layout
 
-\begin_layout Subtitle
+\begin_layout FrameSubtitle
 UHAM, UOP, M30-32
 \end_layout
 
