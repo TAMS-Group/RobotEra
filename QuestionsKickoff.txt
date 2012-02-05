@@ -1,2 +1,7 @@
 Wiki available?
 Repository?
+
+Demos for Slides ?
+ -Video (pick and place)
+ -Video (Navigation)
+ -Live Demo (Ubuntu Gazebo simulation)

@@ -50,10 +50,10 @@
 \paperfontsize default
 \spacing single
 \use_hyperref true
-\pdf_title "Introduction to the Git Version Control System"
+\pdf_title "Robot-Era: First experimental loop"
 \pdf_author "Sebastian Rockel"
-\pdf_subject "Oberseminar TAMS, Department of Informatics, University Hamburg"
-\pdf_keywords "Git, Version Control System"
+\pdf_subject "Kick-Off meeting Robot-Era, Feb 2012"
+\pdf_keywords "Robot-Era, Domestic Platform, Work Package 4, Task, Deliverable"
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
 \pdf_bookmarksopen false
