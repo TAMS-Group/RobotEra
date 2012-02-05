@@ -167,6 +167,10 @@ Content..
 Overview
 \end_layout
 
+\begin_layout Subsection
+Person Month
+\end_layout
+
 \begin_layout BeginFrame
 Person Month
 \end_layout
@@ -196,6 +200,10 @@ status open
 
 \end_layout
 
+\begin_layout Subsection
+Deliverables
+\end_layout
+
 \begin_layout BeginFrame
 Deliverables
 \end_layout
@@ -223,6 +231,10 @@ status open
 
 \begin_layout EndFrame
 
+\end_layout
+
+\begin_layout Subsection
+Milestones
 \end_layout
 
 \begin_layout BeginFrame
@@ -266,7 +278,11 @@ status open
 \end_layout
 
 \begin_layout Section
-Planned Tasks for WP4
+Tasks in WP4
+\end_layout
+
+\begin_layout Subsection
+Tasks in WP4
 \end_layout
 
 \begin_layout BeginFrame
@@ -274,40 +290,96 @@ Tasks
 \end_layout
 
 \begin_layout Itemize
-T4.1: Set-up of the robotic platform for domestic environments (UHAM, SSSA,
- MLAB, UOP, STM, M3-44)
+
+\emph on
+T4.1: Set-up of the robotic platform for domestic environments
+\emph default
+ (UHAM, SSSA, MLAB, UOP, STM, M3-44)
+\end_layout
+
+\begin_layout Pause
+
 \end_layout
 
 \begin_layout Itemize
-T4.2: Design of control strategies for navigation (MLAB, RT, SSSA, M3-44)
+
+\emph on
+T4.2: Design of control strategies for navigation
+\emph default
+ (MLAB, RT, SSSA, M3-44)
+\end_layout
+
+\begin_layout Pause
+
 \end_layout
 
 \begin_layout Itemize
-T4.3: Design of control strategies for grasping and manipulation (UHAM, UOP,
- M3-44)
+
+\emph on
+T4.3: Design of control strategies for grasping and manipulation
+\emph default
+ (UHAM, UOP, M3-44)
+\end_layout
+
+\begin_layout Pause
+
 \end_layout
 
 \begin_layout Itemize
-T4.4: Design of interfaces for Human Robot Interaction (UOP, RT, M3-44)
-\end_layout
 
-\begin_layout Itemize
-T4.5: Early prototype integration and implementation of functionalities (UHAM,
- SSSA, UOP, MLAB, RT, M7-9)
-\end_layout
-
-\begin_layout Itemize
-T4.6: Preparation of the domestic robotic platfrom for the first experimental
- loop (UHAM, MLAB, UOP, M10-12)
-\end_layout
-
-\begin_layout Itemize
-T4.7: Refinement and development for the second experimental loop (UHAM,
- UOP, M30-32)
+\emph on
+T4.4: Design of interfaces for Human Robot Interaction
+\emph default
+ (UOP, RT, M3-44)
 \end_layout
 
 \begin_layout EndFrame
 
+\end_layout
+
+\begin_layout BeginFrame
+Tasks (cont'd)
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+T4.5: Early prototype integration and implementation of functionalities
+\emph default
+ (UHAM, SSSA, UOP, MLAB, RT, M7-9)
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+T4.6: Preparation of the domestic robotic platform for the first experimental
+ loop
+\emph default
+ (UHAM, MLAB, UOP, M10-12)
+\end_layout
+
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+T4.7: Refinement and development for the second experimental loop
+\emph default
+ (UHAM, UOP, M30-32)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+Task Details
 \end_layout
 
 \begin_layout BeginFrame
@@ -547,6 +619,264 @@ filename "subs/appendix_presentation.lyx"
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout BeginFrame
+Work Package Participation UHAM
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Work Package
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Person Month
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
 
 \end_layout
 
