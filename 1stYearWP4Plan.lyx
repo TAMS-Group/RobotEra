@@ -314,97 +314,52 @@ Tasks in WP4
 Tasks
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
-\emph on
-T4.1: Set-up of the robotic platform for domestic environments
-\emph default
- (UHAM, SSSA, MLAB, UOP, STM, M3-44)
-\end_layout
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/oben.png
+	lyxscale 50
+	width 110text%
+	BoundingBox 70bp 0bp 1077bp 32bp
 
-\begin_layout Pause
+\end_inset
 
-\end_layout
 
-\begin_layout Itemize
+\begin_inset Newline newline
+\end_inset
 
-\emph on
-T4.2: Design of control strategies for navigation
-\emph default
- (MLAB, RT, SSSA, M3-44)
-\end_layout
 
-\begin_layout Pause
+\begin_inset Graphics
+	filename images/unten.png
+	lyxscale 50
+	width 110text%
+	BoundingBox 70bp 0bp 1079bp 162bp
 
-\end_layout
+\end_inset
 
-\begin_layout Itemize
-
-\emph on
-T4.3: Design of control strategies for grasping and manipulation
-\emph default
- (UHAM, UOP, M3-44)
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-T4.4: Design of interfaces for Human Robot Interaction
-\emph default
- (UOP, RT, M3-44)
-\end_layout
-
-\begin_layout EndFrame
 
 \end_layout
 
-\begin_layout BeginFrame
-Tasks (cont'd)
-\end_layout
+\end_inset
 
-\begin_layout Itemize
 
-\emph on
-T4.5: Early prototype integration and implementation of functionalities
-\emph default
- (UHAM, SSSA, UOP, MLAB, RT, M7-9)
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-T4.6: Preparation of the domestic robotic platform for the first experimental
- loop
-\emph default
- (UHAM, MLAB, UOP, M10-12)
-\end_layout
-
-\begin_layout Pause
-
-\end_layout
-
-\begin_layout Itemize
-
-\emph on
-T4.7: Refinement and development for the second experimental loop
-\emph default
- (UHAM, UOP, M30-32)
 \end_layout
 
 \begin_layout EndFrame
 
-\end_layout
-
-\begin_layout Subsection
-Task Details
 \end_layout
 
 \begin_layout BeginFrame
@@ -416,12 +371,16 @@ UHAM, SSSA, MLAB, UOP, STM, M3-44
 \end_layout
 
 \begin_layout Itemize
-integrate mobile platform, robotic arm and end-effector (payload etc.
- according to WP2)
+integrate mobile platform, robotic arms and end-effectors (payload etc.
+ according to WP2 criterias)
 \end_layout
 
 \begin_layout Itemize
-integrate communication module (for connectivity with AmI)
+integrate communication module (for connectivity with 
+\emph on
+AmI
+\emph default
+)
 \begin_inset Note Note
 status open
 
@@ -471,12 +430,17 @@ MLAB, RT, SSSA, M3-44
 \end_layout
 
 \begin_layout Itemize
-measure and integrate robot characteristics (shape, dynamics) into CogniDrive
+measure and integrate robot characteristics (shape, dynamics) into the navigatio
+n stack 
+\emph on
+(CogniDrive
+\emph default
+)
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-What provides it?
+What provides it?: Robust Navigation with topological maps
 \end_layout
 
 \end_inset
@@ -486,6 +450,10 @@ What provides it?
 
 \begin_layout Itemize
 design people tracking and following
+\end_layout
+
+\begin_layout Itemize
+object trajectory prediction
 \end_layout
 
 \begin_layout EndFrame
@@ -509,11 +477,23 @@ learning manipulation strategies (object ontology), handle unknown objects
 \end_layout
 
 \begin_layout Itemize
-use results of HTN planning algorithm
+use results of hierarchical task network (HTN) planning algorithm
 \end_layout
 
 \begin_layout Itemize
-online learning (UOP)
+image processing and detecting offline-trained common objects
+\end_layout
+
+\begin_layout Itemize
+apply offline-learned grasps (later also online)
+\end_layout
+
+\begin_layout Itemize
+integrate online learning manipulation and linguistic architecture (
+\emph on
+UOP
+\emph default
+)
 \end_layout
 
 \begin_layout EndFrame
@@ -521,7 +501,7 @@ online learning (UOP)
 \end_layout
 
 \begin_layout BeginFrame
-T4.4 Design of intrefaces for Human Robot Interaction
+T4.4 Design of interfaces for Human Robot Interaction
 \end_layout
 
 \begin_layout FrameSubtitle
@@ -554,7 +534,7 @@ UHAM, SSSA, UOP, MLAB, RT, M7-9
 \end_layout
 
 \begin_layout Itemize
-integrate outcomes of previous tasks into robotic platform (navigation ,
+integrate outcomes of previous tasks into robotic platform (navigation,
  manipulation, interaction, learning)
 \end_layout
 
@@ -564,17 +544,7 @@ SW and firmware integration for different parts
 \end_layout
 
 \begin_layout Itemize
-Control strategy
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-high-level
-\end_layout
-
-\end_inset
-
-
+Control strategy (high-level)
 \end_layout
 
 \end_deeper
@@ -628,7 +598,7 @@ Issues
 \end_layout
 
 \begin_layout Itemize
-Robot mounts: Handle, Tray, Case?
+Robot mounts: handle, tray, case?
 \end_layout
 
 \begin_layout Itemize
