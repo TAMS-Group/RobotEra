@@ -4,7 +4,8 @@
 \begin_header
 \textclass beamer
 \begin_preamble
-\usepackage[ uniWZ, tams, blockBG, engl, conference]{tamsBeamer}
+%\usepackage[ uniWZ, tams, blockBG, engl, conference]{tamsBeamer}
+\usepackage[ tams, blockBG, engl, conference]{tamsBeamer}
 %-- options	------------------------------------------------------
 %	tams	|	- TAMS		publication
 %	engl		- english strings	[german]
@@ -23,6 +24,9 @@
 %	conference	- footline with \foottitle{...}
 %	blockBG	|	- block, example etc. background
 %	blockRound	- -"-, rounded+shadow
+
+\pgfdeclareimage[interpolate=false,width=1.2\textwidth]{bild}{/Users/sebastian/tams/Projekte/RobotEra/RobotEra/images/RobotEraBG.png} 
+\setbeamertemplate{background}{\pgfuseimage{bild}}
 \end_preamble
 \options t
 \use_default_options false
