@@ -4,7 +4,8 @@
 \begin_header
 \textclass beamer
 \begin_preamble
-\usepackage[ uniWZ, tams, blockBG, blockRound, engl, conference ]{tamsBeamer}
+%\usepackage[ uniWZ, tams, blockBG, blockRound, engl, conference ]{tamsBeamer}
+\usepackage[ tams, blockBG, blockRound, engl, conference ]{tamsBeamer}
 %-- options	------------------------------------------------------
 %	tams	|	- TAMS		publication
 %	engl		- english strings	[german]
@@ -23,6 +24,9 @@
 %	conference	- footline with \foottitle{...}
 %	blockBG	|	- block, example etc. background
 %	blockRound	- -"-, rounded+shadow
+
+\pgfdeclareimage[interpolate=false,width=1.2\textwidth]{bild}{images/RobotEraBG.png} 
+\setbeamertemplate{background}{\pgfuseimage{bild}}
 \end_preamble
 \options t
 \use_default_options false
@@ -163,6 +167,23 @@ Content..
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\begin_layout Plain Layout
+-WP interaction more detailed (month)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Overview
 \end_layout
@@ -184,6 +205,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/PersonMonth.png
+	lyxscale 50
 	width 100text%
 
 \end_inset
@@ -217,6 +239,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/Deliverables.png
+	lyxscale 50
 	width 100text%
 
 \end_inset
@@ -250,6 +273,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/MS1.png
+	lyxscale 50
 	width 100text%
 
 \end_inset
@@ -261,6 +285,7 @@ status open
 
 \begin_inset Graphics
 	filename images/MS2.png
+	lyxscale 50
 	width 100text%
 
 \end_inset
@@ -592,6 +617,86 @@ UHAM, UOP, M30-32
 
 \begin_layout Itemize
 integrate results of first experimental loop for improvments (T4.1-4.5)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Issues
+\end_layout
+
+\begin_layout Itemize
+Robot mounts: Handle, Tray, Case?
+\end_layout
+
+\begin_layout Itemize
+Scenario (room organization, furniture) for real test and simulation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+input environment from Örebro, Peccioli?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What sensors are needed?
+\end_layout
+
+\begin_layout Itemize
+Interfaces to CogniDrive
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+WP?
+\end_layout
+
+\end_inset
+
+ and AmI
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+WP?
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -2em
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/RobotEra_Middleware.png
+	lyxscale 69
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace -2em
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame

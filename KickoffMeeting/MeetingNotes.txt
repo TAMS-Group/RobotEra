@@ -1,0 +1,92 @@
+Mo, 6 Feb 2012
+===============
+Started at 1 Jan 2012
+Duration of 48 month (4 years)
+
+
+Project summary
+---------------
+Target group is people 65+ years.
+2 test sites at
+  - Örebro
+  - Peccioli
+
+
+Targets:
+-6 robotic platforms
+-3 scenarios: indoor, condominium, outdoor
+
+-14 month field tries
+in the city centre of Peccioli
+
+Lectures on Robotic technologies for Ageing and Wellbeing
+---------------------------------------------------------
+
+Overview on service robotics
+----------------------------
+important: asthetics
+human-like?
+  -'Uncanny Valley' (uglyness in some state of making it human-like,
+  distractness)
+
+-have to consider violence against robots!
+ (even not destructive)
+
+2nd Part in Peccioli
+====================
+-Introduction of YOUSE (Christoph)
+-Introduction of ORU (Federico) - WP3
+  -they have special available physically environments)
+-Introduction of UHAM (Hannes)
+  -Introduction of TASER and PR2
+  -PR2 using 'as it is' (morgen aufgreifen: Platform slides)
+-Intro of UOP (Plymoth, Angelo)
+  -demo videos of grasp learning and object tracking
+-Intro of MLAB (Andreas) - MetraLabs
+  -CogniDrive provider: autonomous navigation
+  -only non-holonomic drives ????
+  -they cooperate with SCHUNK company for manipulators/arms
+  -MIRA Middleware for Robot Applications:w
+  -ROS interfaces
+-Introduction of ST Microelectronics (Marco)
+  -Company and intro of their ICs
+-Introduction of RT (Nicola)
+  -RoboTech srl company
+  -Boat robots
+-Presentation of SSSA (Paolo)
+  -Peccioli "Centre of Competence"
+-Presentation of MOP (Peccioli)
+  -Senior and Retirement Homes
+  -Langsgarden
+-Presentation of SSSA (Paolo)
+  -DustBot, DustCart
+
+official Website: www.robot-era.eu
+
+-Workplan by Filippo (WP1)
+  -2 Test loops in realistic environment
+
+...
+  End of 1st year: Review1 meeting
+
+  for WP4: D4.1: Report on specifications and middleware architecture of the
+    domestic robotic platform (Month 5, End of May)
+
+Regular Technical Meetings:
+-Proposed a meeting every 4 month!! (M4, M8, M12, M16, M20, M24)
+-every 6 month second year (M30, M36, M42, M48)
+-Next meeting (April) in Örebro??
+
+Review 1: month 14 Bruxelles
+Review 2: month 26 Bruxelles
+Review 3: month 38 Örebro
+Review 4: month 50 Peccioli
+
+-WP2: User- and town-centred design of services
+  -interview with older people (65-75 and 75-90)
+  -Interviews done by SSSA, YOUSE, ORU
+
+-WP3 (Federico)
+
+-WP7 (Filippo)
+-WP8 (Michela)
