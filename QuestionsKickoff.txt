@@ -1,5 +1,7 @@
-Wiki available?
-Repository?
+-Wiki available?
+-Repository?
+-Delivery of (Robot) Hardware
+-Scenario Environment (Simulation), when planned
 
 Demos for Slides ?
  -Video (pick and place)

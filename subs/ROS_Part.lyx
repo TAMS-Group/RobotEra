@@ -326,7 +326,15 @@ ROS Nodes
 \end_layout
 
 \begin_layout Itemize
-Master (rosmaster)
+Multiple nodes (each serves a function) distributed within the network
+\end_layout
+
+\begin_layout Itemize
+One master (
+\emph on
+rosmaster
+\emph default
+)
 \end_layout
 
 \begin_deeper
@@ -370,16 +378,22 @@ ROS Communication
 \end_layout
 
 \begin_layout Itemize
-Publisher sends message to subscribers
+
+\emph on
+Publisher
+\emph default
+ sends message to 
+\emph on
+subscribers
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Usually TCP/IP transport
+XML-RPC is only used to negotiate transport (no messages via XML-RPC)
 \end_layout
 
 \begin_layout Itemize
-XML-RPC is only used to negotiate transport (no messages via XML-RPC)
+Data via TCP/IP transport (peer-to-peer)
 \end_layout
 
 \end_deeper
@@ -634,7 +648,7 @@ PR2 arm navigation
 \end_layout
 
 \begin_layout Itemize
-PR2 opening doors 
+PR2 opening doors/cart pushing
 \end_layout
 
 \begin_layout Itemize
@@ -679,9 +693,9 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename ../images/PR2_3DNavigation.jpg
+	filename /Users/sebastian/tams/Projekte/RobotEra/RobotEra/images/PR2_CartPushing.png
 	lyxscale 20
-	height 40theight%
+	height 48.5theight%
 
 \end_inset
 
@@ -691,7 +705,7 @@ status open
 
 
 \begin_inset Graphics
-	filename ../images/2DMapping.png
+	filename ../images/PR2_3DNavigation.jpg
 	lyxscale 20
 	height 20theight%
 
@@ -731,6 +745,10 @@ Visualization
 \end_layout
 
 \begin_layout Itemize
+Simulation
+\end_layout
+
+\begin_layout Itemize
 Object recognition
 \end_layout
 
@@ -739,20 +757,20 @@ Navigation
 \end_layout
 
 \begin_layout Itemize
-Manipulation/Grasping
+Manipulation/grasping
 \end_layout
 
 \begin_layout Itemize
-Plugging in Sensors
+Plugging in sensors
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-already integrated
+already available
 \end_layout
 
 \begin_layout Itemize
-Robot-Era specific
+Robot-Era requires
 \end_layout
 
 \end_deeper

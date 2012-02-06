@@ -25,7 +25,7 @@
 %	blockBG	|	- block, example etc. background
 %	blockRound	- -"-, rounded+shadow
 
-\pgfdeclareimage[interpolate=false,width=1.2\textwidth]{bild}{/Users/sebastian/tams/Projekte/RobotEra/RobotEra/images/RobotEraBG.png} 
+\pgfdeclareimage[interpolate=false,width=1.2\textwidth]{bild}{images/RobotEraBG.png} 
 \setbeamertemplate{background}{\pgfuseimage{bild}}
 \end_preamble
 \options t
@@ -260,6 +260,19 @@ filename "subs/appendix_presentation.lyx"
 \end_layout
 
 \begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Backup Slides
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
