@@ -127,8 +127,7 @@ Domestic Robotic Platform
 \end_layout
 
 \begin_layout Author
-S.
- Rockel
+Sebastian Rockel, Hannes Bistry
 \series bold
 
 \begin_inset Argument
@@ -136,7 +135,8 @@ status open
 
 \begin_layout Plain Layout
 S.
- Rockel
+ Rockel, H.
+ Bistry
 \end_layout
 
 \end_inset
@@ -148,7 +148,7 @@ S.
 
 \series default
 \size small
-rockel@informatik.uni-hamburg.de
+{rockel, bistry}@informatik.uni-hamburg.de
 \begin_inset VSpace -1em
 \end_inset
 
