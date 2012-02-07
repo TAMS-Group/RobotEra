@@ -90,3 +90,103 @@ Review 4: month 50 Peccioli
 
 -WP7 (Filippo)
 -WP8 (Michela)
+
+7 Feb 2012
+==========
+MetroLabs
+-website: www.project-mira.??
+-WP4 presentation
+  -MetroLabs provides HW until mid of 2012
+  -discussion about issues:
+    -HW to test (available)
+    -available simulation model
+    -ROS and rest of system interface (Ami, MIRA)
+    -Simulation of test environment
+General: 
+-Focus not on robot research
+-Focus on less costs
+
+WP5 (Plymouth, Tony)
+-Condominium platform
+-Question: Who is making the robot cover!!
+-Agreed to participate in meeting this afternoon (2 pm)
+
+WP6 (Juan Carlo)
+-DustBot in Peccioli
+-DustBot runs with Player/Stage
+-Navigation/localization with odometry and laser (landmarks)
+-new Navigation (DGPS)
+
+WP9 Breakthroughs and Exploitation (Sebastian)
+-Information will be provided for free in future
+-what people will be paying for is mobility
+
+WP10 Dissemination
+-repository website
+-LinkedIn, Facebook Group (question: IP??)
+-all publications need to have the 'grant agreement' text on it (see WP10 slide)
+-UHAM proposed SW (and other stuff) repository and to have a wiki for idea
+exchange
+
+Next actions
+============
+next meeting month 4 in Örebro (April 2012, Easter)
+Scenario (hypothesis):
+-elderly woman goes to grocery shop but shopping bag is very heavy for her so she
+ needs robots' help
+-Mission: assisting an elderly woman after the shopping from the grocery shop to
+ the woman's home
+
+ Subtasks:
+ - Robot-Outdoor
+    -receive the bag from shopkeeper
+    -localize inside town
+    -planning way from grocery shop to condominium
+    -navigation avoiding obstacles
+    -exchange of bag with robot-condominium
+ - Robot-Condominium
+    -localize inside condominium
+    -recognize presence of robot-outdoor
+    -exchange of bag with robot-outdoor
+    -planning the way from the condominium door to flat
+    -navigation avoiding obstacles
+    -taking the lifter
+    -exchange of bag with robot-domestic
+ - Robot-Domestic
+    -localization inside home
+    -recognition of presence of Robot-Condominium
+    -eschange of bag with Robot-Condominium
+    -Planning the way from the door to kitchen
+    -navigation avoiding obstacles
+    -leaving shopping bag on table
+
+Scenario 2
+- on christmas it is cold and old man is at home alone with flu
+- his chidlren are spending christmas with theis spouses' families
+- garbage is smelling badly..
+- elderly asks robots' help 
+
+Mission:
+- assisting an old man to delivery bag to the collection site (DustBot?)
+
+Next steps: between m6 - 16
+refinement of services/scenarios for experiments
+
+Afternoon Discussion:
+=====================
+-Örebro (Federico)
+  -'Tupleview' - Middleware
+  -Is this AmI? or Peis?
+  -Symbolic levels (Interface to Robot)- Interface!!
+  -UDP - publish, subscribe
+  -Interface : Behaviors
+    questions: Temporal aspect
+    - Blackboard architecture (basically) with timestamps
+    what information are suitable (abstract enough)
+    -Objects level
+    -Tasks will be sequentialized by AmI infrastructure
+    '(Time) constraint reasoning'
+    -C, C++, Java, Python*
+
+-Kind of sensors?
+  -infrared camera for what??

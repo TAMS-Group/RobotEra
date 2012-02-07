@@ -7,3 +7,31 @@ Demos for Slides ?
  -Video (pick and place)
  -Video (Navigation)
  -Live Demo (Ubuntu Gazebo simulation)
+
+ Afternoon discussion (WP4,5,6) in room 4:
+ -What MetraLabs does need from UHAM
+ -Simulation of Environment (ORU,SSSA) /Robot (ML)
+ -When to get robot at UHAM
+ -Input from WP2/INCRA (Cover, Gripper, Handle etc) when, how?
+ -Deliverable in month 5: HW + SW specifications (ML), how is it working
+  ML: Schunk Catalog: see the website (??)
+  -Schunk has some ROS stack for arms (ethernet)
+
+ Summary:
+ -get simulator from MetraLab
+ -get Catalog from MetraLab (Hardware)
+ -some ROS interface (platfrom/arms)
+ -need payload for gripper/arm (0.5 or 10kg)
+ -make a list to ML
+
+Deliverable 4.1:
+  -Middleware architecture (PEIS)
+  -Hardwarearchitecture
+  -manipulation/grasping/navigation
+
+Suggestion:
+ -do meeting minutes next time ('tighten pad', 'pirate pad')
+ -next (remote) meeting in March (6/7 March 2012, 6pm) 9 March 10am
+
+TODO
+  -send Filippo meeting minutes (sebastian)
