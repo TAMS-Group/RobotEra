@@ -693,7 +693,7 @@ status open
 \noindent
 \align center
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RobotEra/RobotEra/images/PR2_CartPushing.png
+	filename ../images/PR2_CartPushing.png
 	lyxscale 20
 	height 48.5theight%
 
