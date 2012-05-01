@@ -95,6 +95,10 @@ Any questions?
 \end_layout
 
 \begin_layout Subsection*
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Subsection*
 Further Reading
 \end_layout
 
@@ -112,7 +116,7 @@ status collapsed
 Further Reading
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Note Note
 status collapsed
 
@@ -159,7 +163,7 @@ beamertemplatebookbibitems
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Note Note
 status open
 
@@ -173,6 +177,11 @@ Anfangen sollte man mit Übersichtswerken.
 \end_layout
 
 \begin_layout EndFrame
+
+\end_layout
+
+\end_inset
+
 
 \end_layout
 

@@ -260,8 +260,38 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
+	filename ../images/RobotEra_Middleware.png
+	lyxscale 69
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Architecture cont'd
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
 	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/MIRA-ROS-Connection-v0.1.pdf
-	lyxscale 50
+	lyxscale 75
 	width 100text%
 	BoundingBox 5bp -30bp 837bp 540bp
 
@@ -283,6 +313,106 @@ status open
 
 \end_layout
 
+\begin_layout BeginFrame
+Architecture cont'd
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+GUI
+\emph default
+ for supervision, debugging, test controlling
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+PEIS
+\emph default
+ is the the interface to the PEIS Ecology
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Planner 
+\emph default
+subsumes tasks into subtasks and re-plans if something fails (included in
+ PEIS?)
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Database
+\emph default
+ holds information about objects in order to recognize them (interfaced
+ by the ROS tabletop stack)
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+State machine
+\emph default
+ (ROS) will be realized by the SMACH (ROS) stack
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Architecture cont'd
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Perception
+\emph default
+ (ROS) includes ROS tabletop recognition and table detection and is available
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sensory data will be retrieved by the front Kinect
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Manipulation
+\emph default
+ (ROS) is available in the ROS manipulation stack
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the Jaco Arm model has to be integrated
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Adapter
+\emph default
+ provides transparent communication between ROS and MIRA
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+translates between Services( RPC), Actions (Callbacks) and Messages
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
 \begin_layout Section
 Robot Integration Solutions
 \end_layout
@@ -292,7 +422,7 @@ Robot Integration Solutions
 \end_layout
 
 \begin_layout BeginFrame
-Integration
+Kinect Integration
 \end_layout
 
 \begin_layout Standard
@@ -302,7 +432,130 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-TODO: add kinect robot image
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/kinectMount.png
+	lyxscale 75
+	height 80theight%
+	BoundingBox 0bp 0bp 605bp 500bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Kinect Integration cont'd
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/domesticRobotDesign.png
+	lyxscale 75
+	height 80theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Robot Arm Kinove Jaco
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Itemize
+payload 1.5 kg, weight 5.7 kg
+\end_layout
+
+\begin_layout Itemize
+(horizontal) range of 0.9 m
+\end_layout
+
+\begin_layout Itemize
+fixed 3 finger gripper
+\end_layout
+
+\begin_layout Itemize
+USB (CAN) interface
+\end_layout
+
+\begin_layout Itemize
+fall-back joystick control possible
+\end_layout
+
+\begin_layout Itemize
+arm loses its position when powered-off, nevertheless several park positions
+ available
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/jacoKinovaG5.png
+	lyxscale 50
+	width 80col%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -312,6 +565,113 @@ TODO: add kinect robot image
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Robot Arm Kinove Jaco cont'd
+\end_layout
+
+\begin_layout Itemize
+ROS API available for Ubuntu (11.04) and ROS Electric
+\end_layout
+
+\begin_layout Itemize
+basically a ROS wrapper for the (Windows) proprietary kinematic controller
+ libraries
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+uses the Linux Mono project
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+provides a 3D modell for visualization in RViz
+\end_layout
+
+\begin_layout Itemize
+controllable by setting each interpolation point's velocity
+\end_layout
+
+\begin_layout Itemize
+official release of the ROS driver is planned for autumn (Sep-Dec?) 2012
+\end_layout
+
+\begin_layout Itemize
+driver development is done at a German university and direct developer contact
+ is possible
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Touch Interface
+\end_layout
+
+\begin_layout FrameSubtitle
+related to T4.4
+\end_layout
+
+\begin_layout Itemize
+using a ROS node to send commands to the robot
+\end_layout
+
+\begin_layout Itemize
+node receives command via the network from the tablet
+\end_layout
+
+\begin_layout Itemize
+UHAM made some experiments with using an iPad to control a humanoid 5-finger
+ hand
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+can be extended by a Robot-Era (domestic) centric GUI
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Issues
+\end_layout
+
+\begin_layout Itemize
+3D collision avoidance (without tilting laser)
+\end_layout
+
+\begin_layout Itemize
+PEIS-ROS bridge needed
+\end_layout
+
+\begin_layout Itemize
+Kinect height of 1.1 m and thus ca.
+ 0.4 m above table plane might be not sufficient to segment (high) objects
+ on top of the table (better place it on top of the robot at 1.6 to 1.7 m)
+\end_layout
+
+\begin_layout Itemize
+Arm height of ca.
+ 1.1 m might reduce collision free position when manipulation on the tabletop
+\end_layout
+
+\begin_layout Itemize
+Establish close Kinova Jaco developer contact
 \end_layout
 
 \begin_layout EndFrame
@@ -327,7 +687,11 @@ Simulation
 \end_layout
 
 \begin_layout BeginFrame
-Simulation
+ROS Gazebo Simulation
+\end_layout
+
+\begin_layout Itemize
+Environment already available as Gazebo world? (Örebro, SSSA?)
 \end_layout
 
 \begin_layout Standard
@@ -337,10 +701,14 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-TODO: add RACE gazebo image
-\end_layout
+\begin_inset Graphics
+	filename ../../../RACE/github/images/newGazeboWorld.png
+	lyxscale 40
+	width 75text%
+	BoundingBox 0bp 0bp 1680bp 970bp
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
@@ -353,20 +721,17 @@ TODO: add RACE gazebo image
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Subsection
+Schedule
 \begin_inset Note Note
 status collapsed
 
-\begin_layout Section
-Overview
-\end_layout
-
 \begin_layout Subsection
-Person Month
-\end_layout
-
-\begin_layout BeginFrame
-Person Month
+Person MonthPerson Month
 \end_layout
 
 \begin_layout Plain Layout
@@ -395,15 +760,16 @@ status open
 
 \end_layout
 
-\begin_layout Subsection
-Deliverables
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
 Deliverables
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -429,15 +795,11 @@ status open
 
 \end_layout
 
-\begin_layout Subsection
-Milestones
-\end_layout
-
 \begin_layout BeginFrame
 Milestones
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -475,19 +837,11 @@ status open
 
 \end_layout
 
-\begin_layout Section
-Tasks in WP4
-\end_layout
-
-\begin_layout Subsection
-Tasks in WP4
-\end_layout
-
 \begin_layout BeginFrame
 Tasks
 \end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -642,7 +996,7 @@ UHAM, UOP, M3-44
 \end_layout
 
 \begin_layout Itemize
-object detection via stereo-vision, SIFT-feature, 3D laser ranger
+object detection via stereo-vision (Kinect), SIFT-feature, 3D laser ranger
 \end_layout
 
 \begin_layout Itemize
@@ -759,8 +1113,12 @@ UHAM, UOP, M30-32
 \end_layout
 
 \begin_layout Itemize
-integrate results of first experimental loop for improvments (T4.1-4.5)
+integrate results of first experimental loop for improvements (T4.1-4.5)
 \end_layout
+
+\begin_layout EndFrame
+\begin_inset Note Note
+status collapsed
 
 \begin_layout EndFrame
 
