@@ -228,6 +228,14 @@ Description of Activities
 Activities
 \end_layout
 
+\begin_layout Itemize
+ROS tabletop segmentation + manipulation
+\end_layout
+
+\begin_layout Itemize
+Pick and Place demo
+\end_layout
+
 \begin_layout EndFrame
 
 \end_layout
@@ -244,6 +252,33 @@ Robot Architecture Solutions
 Architecture
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/MIRA-ROS-Connection-v0.1.pdf
+	lyxscale 50
+	width 100text%
+	BoundingBox 5bp -30bp 837bp 540bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout EndFrame
 
 \end_layout
@@ -258,6 +293,60 @@ Robot Integration Solutions
 
 \begin_layout BeginFrame
 Integration
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+TODO: add kinect robot image
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Simulation
+\end_layout
+
+\begin_layout Subsection
+Simulation
+\end_layout
+
+\begin_layout BeginFrame
+Simulation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+TODO: add RACE gazebo image
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
