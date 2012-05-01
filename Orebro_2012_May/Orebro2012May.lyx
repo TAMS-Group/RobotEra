@@ -290,7 +290,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/MIRA-ROS-Connection-v0.1.pdf
+	filename ../images/MIRA-ROS-Connection-v0.1.pdf
 	lyxscale 75
 	width 100text%
 	BoundingBox 5bp -30bp 837bp 540bp
@@ -433,7 +433,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/kinectMount.png
+	filename ../images/kinectMount.png
 	lyxscale 75
 	height 80theight%
 	BoundingBox 0bp 0bp 605bp 500bp
@@ -464,7 +464,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/domesticRobotDesign.png
+	filename ../images/domesticRobotDesign.png
 	lyxscale 75
 	height 80theight%
 
@@ -549,7 +549,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/sebastian/tams/Projekte/RobotEra/github/images/jacoKinovaG5.png
+	filename ../images/jacoKinovaG5.png
 	lyxscale 50
 	width 80col%
 
