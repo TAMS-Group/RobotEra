@@ -220,8 +220,12 @@ Folgendes sollte gelöscht werden, wenn man nicht am Anfang jedes Unterabschnitt
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -259,6 +263,11 @@ tableofcontents[currentsection,currentsubsection]
 \begin_layout Plain Layout
 
 }
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset

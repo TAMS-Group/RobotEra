@@ -5,7 +5,7 @@
 \textclass beamer
 \begin_preamble
 %\usepackage[ uniWZ, tams, blockBG, blockRound, engl, conference ]{tamsBeamer}
-\usepackage[ tams, blockBG, blockRound, engl, conference ]{tamsBeamer}
+\usepackage[ tams, blockBG, blockRound, engl, conference, secToc, secNum ]{tamsBeamer}
 %-- options	------------------------------------------------------
 %	tams	|	- TAMS		publication
 %	engl		- english strings	[german]
@@ -171,8 +171,17 @@ Content..
 Description of Activities
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Description of Activities
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -283,8 +292,17 @@ tabletop segmentation (and object detection)
 Robot Architecture Solutions
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Robot Architecture Solutions
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -456,8 +474,17 @@ translates between Services (RPC), Actions (Callbacks) and Messages
 Robot Integration Solutions
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Robot Integration Solutions
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -721,8 +748,17 @@ establish close Kinova Jaco developer contact
 Simulation
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Simulation
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -764,8 +800,17 @@ status open
 Schedule
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Schedule
+\end_layout
+
+\end_inset
+
+
 \begin_inset Note Note
 status collapsed
 
