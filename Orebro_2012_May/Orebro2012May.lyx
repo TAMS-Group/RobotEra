@@ -167,55 +167,6 @@ Content..
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-TODO
-\end_layout
-
-\begin_layout Plain Layout
--WP interaction more detailed (month)WP4
-\end_layout
-
-\begin_layout Plain Layout
-Description of activities
-\end_layout
-
-\begin_layout Plain Layout
-Robot architecture solutions
-\end_layout
-
-\begin_layout Plain Layout
-see D4.1
-\end_layout
-
-\begin_layout Plain Layout
-Robot integration solutions
-\end_layout
-
-\begin_layout Plain Layout
-see D4.1
-\end_layout
-
-\begin_layout Plain Layout
-WP4 overview
-\end_layout
-
-\begin_layout Plain Layout
-optional:
-\end_layout
-
-\begin_layout Plain Layout
-Gazebo simulator
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Description of Activities
 \end_layout
@@ -229,18 +180,59 @@ Activities
 \end_layout
 
 \begin_layout Itemize
-communicating with Robot Arm suppliers
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<1>
+\end_layout
+
+\end_inset
+
+preparing D4.1 
+\emph on
+Report on specifications and middleware architecture of the domestic robotic
+ platform
+\emph default
+ (within Workgroup 1)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+technical communicating with robot arm suppliers
 \end_layout
 
 \begin_layout Itemize
 HW + SW integration design
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<2->
+\end_layout
+
+\end_inset
+
 ROS tabletop segmentation + manipulation
 \end_layout
 
 \begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<3>
+\end_layout
+
+\end_inset
+
 Pick and Place demo
 \begin_inset Foot
 status open
@@ -271,11 +263,15 @@ navigation + localization
 \end_layout
 
 \begin_layout Itemize
+(simple hierarchical) task planning (with JSHOP2)
+\end_layout
+
+\begin_layout Itemize
 tabletop detection
 \end_layout
 
 \begin_layout Itemize
-tabletop segmentation (object detection)
+tabletop segmentation (and object detection)
 \end_layout
 
 \end_deeper
@@ -734,7 +730,7 @@ ROS Gazebo Simulation
 \end_layout
 
 \begin_layout Itemize
-Environment already available as Gazebo world? (Örebro, SSSA?)
+will there be the test environment available as Gazebo world? (ORU, SSSA?)
 \end_layout
 
 \begin_layout Standard
@@ -1022,6 +1018,16 @@ What provides it?: Robust Navigation with topological maps
 design people tracking and following
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+face tracking (OpenCV?)
+\end_layout
+
+\begin_layout Itemize
+motion tracking
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 object trajectory prediction
 \end_layout
@@ -1083,6 +1089,12 @@ investigate sophisticated HRI (via screen, e.g.
  emotional state, language)
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+wireless tablet with suited GUI?
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 investigate natural language interaction
 \end_layout
