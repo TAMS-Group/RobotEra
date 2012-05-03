@@ -229,13 +229,56 @@ Activities
 \end_layout
 
 \begin_layout Itemize
+communicating with Robot Arm suppliers
+\end_layout
+
+\begin_layout Itemize
+HW + SW integration design
+\end_layout
+
+\begin_layout Itemize
 ROS tabletop segmentation + manipulation
 \end_layout
 
 \begin_layout Itemize
 Pick and Place demo
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://youtu.be/RE7C2yyLXU8"
+target "http://youtu.be/RE7C2yyLXU8"
+
+\end_inset
+
+
 \end_layout
 
+\end_inset
+
+, which involves
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(3D) obstacle avoidance
+\end_layout
+
+\begin_layout Itemize
+navigation + localization
+\end_layout
+
+\begin_layout Itemize
+tabletop detection
+\end_layout
+
+\begin_layout Itemize
+tabletop segmentation (object detection)
+\end_layout
+
+\end_deeper
 \begin_layout EndFrame
 
 \end_layout
@@ -377,7 +420,7 @@ Perception
 
 \begin_deeper
 \begin_layout Itemize
-sensory data will be retrieved by the front Kinect
+sensory data will be retrieved by the (front) Kinect
 \end_layout
 
 \end_deeper
@@ -405,7 +448,7 @@ Adapter
 
 \begin_deeper
 \begin_layout Itemize
-translates between Services( RPC), Actions (Callbacks) and Messages
+translates between Services (RPC), Actions (Callbacks) and Messages
 \end_layout
 
 \end_deeper
@@ -483,7 +526,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-Robot Arm Kinove Jaco
+Robot Arm Kinova Jaco
 \end_layout
 
 \begin_layout Standard
@@ -577,7 +620,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-Robot Arm Kinove Jaco cont'd
+Robot Arm Kino Jaco cont'd
 \end_layout
 
 \begin_layout Itemize
@@ -596,7 +639,7 @@ uses the Linux Mono project
 
 \end_deeper
 \begin_layout Itemize
-provides a 3D modell for visualization in RViz
+provides a 3D model for visualization in RViz
 \end_layout
 
 \begin_layout Itemize
@@ -621,7 +664,7 @@ Touch Interface
 \end_layout
 
 \begin_layout FrameSubtitle
-related to T4.4
+related to T4.4 'Design of interfaces for Human Robot Interaction'
 \end_layout
 
 \begin_layout Itemize
@@ -671,7 +714,7 @@ Arm height of ca.
 \end_layout
 
 \begin_layout Itemize
-Establish close Kinova Jaco developer contact
+establish close Kinova Jaco developer contact
 \end_layout
 
 \begin_layout EndFrame
@@ -899,7 +942,7 @@ UHAM, SSSA, MLAB, UOP, STM, M3-44
 
 \begin_layout Itemize
 integrate mobile platform, robotic arms and end-effectors (payload etc.
- according to WP2 criterias)
+ according to WP2 criteria)
 \end_layout
 
 \begin_layout Itemize
@@ -933,7 +976,7 @@ integrate additional HW (handle, case, tray?)
 \end_layout
 
 \begin_layout Itemize
-integrate security mechanisms (security buttons, bumbers)
+integrate security mechanisms (security buttons, bumpers)
 \end_layout
 
 \begin_layout Itemize
@@ -1080,7 +1123,7 @@ Control strategy (high-level)
 \end_layout
 
 \begin_layout BeginFrame
-T4.6 Preparation of the domestic robotic platfrom for the first experimental
+T4.6 Preparation of the domestic robotic platform for the first experimental
  loop
 \end_layout
 
