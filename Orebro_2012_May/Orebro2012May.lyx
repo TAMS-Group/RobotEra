@@ -272,7 +272,7 @@ navigation + localization
 \end_layout
 
 \begin_layout Itemize
-(simple hierarchical) task planning (with JSHOP2)
+(simple hierarchical) task planning (JSHOP2)
 \end_layout
 
 \begin_layout Itemize
@@ -413,7 +413,7 @@ Database
 \emph on
 State machine
 \emph default
- (ROS) will be realized by the SMACH (ROS) stack
+ (ROS) will be realized by the SMACH (ROS python) library
 \end_layout
 
 \begin_layout EndFrame
@@ -499,10 +499,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../images/kinectMount.png
+	filename ../images/domesticRobotDesign.png
 	lyxscale 75
 	height 80theight%
-	BoundingBox 0bp 0bp 605bp 500bp
 
 \end_inset
 
@@ -530,9 +529,10 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../images/domesticRobotDesign.png
+	filename ../images/kinectMount.png
 	lyxscale 75
 	height 80theight%
+	BoundingBox 0bp 0bp 605bp 500bp
 
 \end_inset
 
@@ -1137,6 +1137,16 @@ investigate sophisticated HRI (via screen, e.g.
 \begin_deeper
 \begin_layout Itemize
 wireless tablet with suited GUI?
+\end_layout
+
+\begin_layout Itemize
+control typical tasks, e.g.
+ call robot, get out the trash bin, initiate plastic bag catching from shop
+ etc.
+\end_layout
+
+\begin_layout Itemize
+provide information about the (ambient) sensor system to the user
 \end_layout
 
 \end_deeper
