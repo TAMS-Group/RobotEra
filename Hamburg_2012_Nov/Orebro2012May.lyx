@@ -103,7 +103,7 @@
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Title..
@@ -126,7 +126,7 @@ filename "subs/title/title_1stYWP4.lyx"
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Outline..
@@ -156,7 +156,7 @@ LatexCommand tableofcontents
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Content..
@@ -167,13 +167,296 @@ Content..
 
 \end_layout
 
+\begin_layout BeginFrame
+Technical Tutorial
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<0>
+\end_layout
+
+\end_inset
+
+[9:00] Welcome to the tutorial
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+[9:15] Introduction on tutorial and agenda
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+[9:30] Jaco arm control with ROS
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<2->
+\end_layout
+
+\end_inset
+
+[10:30] Break & Informal Discussion
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<2->
+\end_layout
+
+\end_inset
+
+[11:00] Simulation: Scitos, Jaco and working with Gazebo
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<3->
+\end_layout
+
+\end_inset
+
+[12:30-13:30] Lunch & Informal Discussion
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<3->
+\end_layout
+
+\end_inset
+
+[13:30] MIRA-ROS Adapter
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<4->
+\end_layout
+
+\end_inset
+
+[15:00-15:30] Break & Informal Discussion
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<4->
+\end_layout
+
+\end_inset
+
+[15:30-17:00] Controlling PTU, Camera and ASUS (Kinect), Face Recognition
+\end_layout
+
+\begin_layout Itemize
+[overflow] Extended simulation demo, RACE demo (PR2), PR2 object manipulation
+ demo
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Technical Tutorial (cont'd)
+\end_layout
+
+\begin_layout Itemize
+Jaco arm control with ROS
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Introduction on Jaco arm
+\end_layout
+
+\begin_layout Itemize
+C#-library API
+\end_layout
+
+\begin_layout Itemize
+ROS stack overview
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+API
+\end_layout
+
+\begin_layout Itemize
+jaco state publisher
+\end_layout
+
+\begin_layout Itemize
+topics and message format
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Outlook
+\end_layout
+
+\begin_layout Itemize
+Demo
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Technical Tutorial (cont'd)
+\end_layout
+
+\begin_layout Itemize
+Simulation: Scitos, Jaco and working with Gazebo
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gazebo overview
+\end_layout
+
+\begin_layout Itemize
+Overview of Scitos URDF and Gazebo model
+\end_layout
+
+\begin_layout Itemize
+Demo
+\end_layout
+
+\begin_layout Itemize
+*Outlook
+\end_layout
+
+\begin_layout Itemize
+*Discussion about scenarios (robot handover, HRI, human simulation)
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Technical Tutorial (cont'd)
+\end_layout
+
+\begin_layout Itemize
+MIRA-ROS Adapter
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Intorduction to MIRA and ROS concepts
+\end_layout
+
+\begin_layout Itemize
+Comparison (MIRA-ROS)
+\end_layout
+
+\begin_layout Itemize
+Aproach for the Adapter
+\end_layout
+
+\begin_layout Itemize
+Outlook
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Technical Tutorial (cont'd)
+\end_layout
+
+\begin_layout Itemize
+Controlling PTU, Camera and ASUS (Kinect), Face Recognition
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Introduction on PTU, Camera, ASUS
+\end_layout
+
+\begin_layout Itemize
+Present work on Camera
+\end_layout
+
+\begin_layout Itemize
+Demo (Camera, *PTU, Face Recognition)
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+Technical Tutorial (cont'd)
+\end_layout
+
+\begin_layout Itemize
+[overflow]
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Extended simulation demo
+\end_layout
+
+\begin_layout Itemize
+RACE demo (PR2)
+\end_layout
+
+\begin_layout Itemize
+PR2 object manipulation demo
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Description of Activities
 \end_layout
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Description of Activities
@@ -264,7 +547,7 @@ target "http://www.ros.org/wiki/ompl"
 \begin_layout Itemize
 integration of MoveIt!
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset CommandInset href
@@ -281,7 +564,7 @@ target "http://moveit.ros.org/"
 
  (motion planner, arm configuration)
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 open web page and show high level functionality
@@ -338,7 +621,7 @@ parallel task execution
 \begin_layout Itemize
 tabletop segmentation (and object detection)
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset CommandInset href
@@ -371,7 +654,7 @@ Robot Architecture Solutions
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Robot Architecture Solutions
@@ -386,7 +669,15 @@ Robot Architecture Solutions
 Architecture
 \end_layout
 
+\begin_layout FrameSubtitle
+Robot-Era System
+\end_layout
+
 \begin_layout Standard
+\begin_inset VSpace -1.5em
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
@@ -394,9 +685,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../images/RobotEra_Middleware.png
-	lyxscale 69
-	width 100text%
+	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/D7.1-RE_full_arch.jpg
+	lyxscale 50
+	height 80theight%
 
 \end_inset
 
@@ -413,10 +704,18 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-Architecture cont'd
+Architecture (cont'd)
+\end_layout
+
+\begin_layout FrameSubtitle
+Domestic Platform
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace -1.5em
+\end_inset
+
+
 \begin_inset Float figure
 wide false
 sideways false
@@ -424,10 +723,8 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename ../images/MIRA-ROS-Connection-v0.1.pdf
-	lyxscale 75
-	width 100text%
-	BoundingBox 5bp -30bp 837bp 540bp
+	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/re_sw_architecture_det.fig
+	height 80theight%
 
 \end_inset
 
@@ -553,7 +850,7 @@ Robot Integration Solutions
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Robot Integration Solutions
@@ -569,7 +866,28 @@ Scitos Head Integration
 \end_layout
 
 \begin_layout Standard
-Some before after pictures here
+\begin_inset Graphics
+	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/IMG_3508.JPG
+	lyxscale 7
+	width 48text%
+	BoundingBox 0bp 0bp 800bp 530bp
+	clip
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/IMG_3514.JPG
+	lyxscale 5
+	width 48text%
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
@@ -596,7 +914,7 @@ width "50col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Itemize
 payload 1.5 kg, weight 5.7 kg
@@ -637,13 +955,13 @@ width "49col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -718,7 +1036,7 @@ driver development is done at a German university and direct developer contact
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout BeginFrame
 Touch Interface
@@ -788,8 +1106,17 @@ Arm height of ca.
  1.1 m might reduce collision free position when manipulation on the tabletop
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 establish close Kinova Jaco developer contact
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
@@ -802,7 +1129,7 @@ Simulation
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Simulation
@@ -831,7 +1158,7 @@ Schedule
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Schedule
@@ -851,7 +1178,7 @@ Person MonthPerson Month
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -886,7 +1213,7 @@ Deliverables
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -916,7 +1243,7 @@ Milestones
 \begin_inset Float figure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -966,7 +1293,7 @@ width "100col%"
 special "none"
 height "1in"
 height_special "totalheight"
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -1022,7 +1349,7 @@ AmI
 \emph default
 )
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 What's this
@@ -1077,7 +1404,7 @@ n stack
 \emph default
 )
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 What provides it?: Robust Navigation with topological maps
@@ -1288,7 +1615,7 @@ What sensors are needed?
 \begin_layout Itemize
 Interfaces to CogniDrive
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 WP?
@@ -1298,7 +1625,7 @@ WP?
 
  and AmI
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 WP?
@@ -1350,7 +1677,7 @@ status collapsed
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Appendix..
@@ -1380,7 +1707,7 @@ Work Package Participation UHAM
 \begin_inset Float table
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \noindent
