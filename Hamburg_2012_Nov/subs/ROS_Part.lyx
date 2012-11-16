@@ -1,0 +1,782 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usepackage[ uniWZ, tams, blockBG, engl, conference]{tamsBeamer}
+%-- options	------------------------------------------------------
+%	tams	|	- TAMS		publication
+%	engl		- english strings	[german]
+%	uniWZ	|	- uni		watermark
+%	tamsWZ	|	- tams+uni	watermark
+%	cinacsWZ	- cinacs+uni	watermark
+%	secToc	|	- toc repetition at each section
+%	secTocA		- -"-, all sections: show
+%			  replacement for toc in short docs
+%	subsecToc	- toc repetition at each subsection
+%	secNum  	- (sub)-section numbering
+%	fullstep	- always step through items
+%	noFoot		- footline	off
+%	noPage		- page numbers	off
+%	noAuth		- author	off
+%	conference	- footline with \foottitle{...}
+%	blockBG	|	- block, example etc. background
+%	blockRound	- -"-, rounded+shadow
+\end_preamble
+\options t
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Introduction to the Git Version Control System"
+\pdf_author "Sebastian Rockel"
+\pdf_subject "Oberseminar TAMS, Department of Informatics, University Hamburg"
+\pdf_keywords "Git, Version Control System"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language danish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\listings_params "basicstyle={\sffamily\small},breakatwhitespace=true,breaklines=true,captionpos=b,commentstyle={\color{red}\emph},escapeinside={\%*}{*)},frameshape={RYR}{y}{y}{RYR},identifierstyle={\color{black}\bfseries},keywordstyle={\color{blue}\bfseries},numbers=none,numbersep=5pt,numberstyle={\color{black}\tiny},showspaces=false,showstringspaces=false,showtabs=false,stepnumber=1,stringstyle={\ttfamily\color{red}\bfseries\emph},tabsize=2"
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+ROS
+\end_layout
+
+\begin_layout Subsection
+ROS Introduction
+\end_layout
+
+\begin_layout BeginFrame
+ROS Introduction
+\end_layout
+
+\begin_layout Standard
+ROS
+\end_layout
+
+\begin_layout Itemize
+Meta operating system for robotics
+\end_layout
+
+\begin_layout Itemize
+Obtain, build, write and run code across multiple computers and robots
+\end_layout
+
+\begin_layout Itemize
+Open source
+\end_layout
+
+\begin_layout Itemize
+BSD licensed (very liberal
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://en.wikipedia.org/wiki/BSD_licenses"
+target "http://en.wikipedia.org/wiki/BSD_licenses"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+Willow Garage
+\end_layout
+
+\begin_layout Itemize
+Community
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Introduction (cont.)
+\end_layout
+
+\begin_layout FrameSubtitle
+Robots Using ROS > 50
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/ROSManyRobots.png
+	lyxscale 20
+	height 80pheight%
+	BoundingBox 0bp -160bp 952bp 480bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Basics
+\end_layout
+
+\begin_layout Itemize
+Supported Platforms
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Linux, Mac OS, partial support for Windows
+\end_layout
+
+\end_deeper
+\begin_layout Pause
+
+\end_layout
+
+\begin_layout Itemize
+Languages
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+C/C++, Python, Octave, Lisp, Java
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+What does ROS cover?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+ROS
+\end_layout
+
+\begin_layout Itemize
+Simulation
+\end_layout
+
+\begin_layout Itemize
+Task execution
+\end_layout
+
+\begin_layout Itemize
+Mobile manipulation
+\end_layout
+
+\begin_layout Itemize
+Navigation
+\end_layout
+
+\begin_layout Itemize
+Visualization
+\end_layout
+
+\begin_layout Itemize
+Client libraries
+\end_layout
+
+\begin_layout Itemize
+Message passing
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/electric_200w_ROS.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+ROS Concepts
+\end_layout
+
+\begin_layout BeginFrame
+ROS Nodes
+\end_layout
+
+\begin_layout Itemize
+Multiple nodes (each serves a function) distributed within the network
+\end_layout
+
+\begin_layout Itemize
+One master (
+\emph on
+rosmaster
+\emph default
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+provides naming and registration services
+\end_layout
+
+\begin_layout Itemize
+tracks topics and services
+\end_layout
+
+\begin_layout Itemize
+enables localization of nodes (they talk peer-to-peer)
+\end_layout
+
+\begin_layout Itemize
+XML-RPC-based API
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Generally: they are uniquely named
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+[allowframebreaks]
+\end_layout
+
+\end_inset
+
+ROS Communication
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Publisher
+\emph default
+ sends message to 
+\emph on
+subscribers
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+XML-RPC is only used to negotiate transport (no messages via XML-RPC)
+\end_layout
+
+\begin_layout Itemize
+Data via TCP/IP transport (peer-to-peer)
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/ServiceInvocation.png
+	lyxscale 30
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Communication (cont.)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/ros_rxgraph.pdf
+	lyxscale 20
+	width 100text%
+	BoundingBox 40bp 0bp 800bp 530bp
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Subsection
+ROS Repositories
+\end_layout
+
+\begin_layout BeginFrame
+ROS Repositories
+\end_layout
+
+\begin_layout Standard
+Repositories world-wide
+\end_layout
+
+\begin_layout Itemize
+Collection of packages and stacks, hosted online
+\end_layout
+
+\begin_layout Itemize
+many repositories (>50): Stanford, CMU, TUM ..
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/ROSReopGrowth.png
+	lyxscale 20
+	width 90text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Repositories (cont.)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/ROS_Repositories.png
+	lyxscale 20
+	width 100page%
+	BoundingBox 80bp 0bp 1350bp 550bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Stacks
+\end_layout
+
+\begin_layout Itemize
+Collect similar packages that work together to achieve e.g.:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+2D Navigation
+\end_layout
+
+\begin_layout Itemize
+Manipulation
+\end_layout
+
+\begin_layout Itemize
+SLAM
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/ROSStack.png
+	lyxscale 20
+	width 45text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Stacks Overview
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.ros.org/browse"
+target "http://www.ros.org/browse"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout FrameSubtitle
+Currently > 400 Stacks available
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45text%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Itemize
+(2D/3D) Navigation 
+\end_layout
+
+\begin_layout Itemize
+PR2 arm navigation
+\end_layout
+
+\begin_layout Itemize
+PR2 opening doors/cart pushing
+\end_layout
+
+\begin_layout Itemize
+Exploration
+\end_layout
+
+\begin_layout Itemize
+GUI for PR2 robot
+\end_layout
+
+\begin_layout Itemize
+PR2 object manipulation 
+\end_layout
+
+\begin_layout Itemize
+PR2 simulator
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50page%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename ../images/PR2_CartPushing.png
+	lyxscale 20
+	height 48.5theight%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../images/PR2_3DNavigation.jpg
+	lyxscale 20
+	height 20theight%
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../images/PR2 Opening doors.png
+	lyxscale 20
+	height 20theight%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Strengths for Robot-Era
+\end_layout
+
+\begin_layout Itemize
+Visualization
+\end_layout
+
+\begin_layout Itemize
+Simulation
+\end_layout
+
+\begin_layout Itemize
+Object recognition
+\end_layout
+
+\begin_layout Itemize
+Navigation
+\end_layout
+
+\begin_layout Itemize
+Manipulation/grasping
+\end_layout
+
+\begin_layout Itemize
+Plugging in sensors
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+already available
+\end_layout
+
+\begin_layout Itemize
+Robot-Era requires
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document

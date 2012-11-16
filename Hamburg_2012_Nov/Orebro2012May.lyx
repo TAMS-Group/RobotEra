@@ -1,0 +1,1642 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+%\usepackage[ uniWZ, tams, blockBG, blockRound, engl, conference ]{tamsBeamer}
+\usepackage[ tams, blockBG, blockRound, engl, conference, secToc, secNum ]{tamsBeamer}
+%-- options	------------------------------------------------------
+%	tams	|	- TAMS		publication
+%	engl		- english strings	[german]
+%	uniWZ	|	- uni		watermark
+%	tamsWZ	|	- tams+uni	watermark
+%	cinacsWZ	- cinacs+uni	watermark
+%	secToc	|	- toc repetition at each section
+%	secTocA		- -"-, all sections: show
+%			  replacement for toc in short docs
+%	subsecToc	- toc repetition at each subsection
+%	secNum  	- (sub)-section numbering
+%	fullstep	- always step through items
+%	noFoot		- footline	off
+%	noPage		- page numbers	off
+%	noAuth		- author	off
+%	conference	- footline with \foottitle{...}
+%	blockBG	|	- block, example etc. background
+%	blockRound	- -"-, rounded+shadow
+
+\pgfdeclareimage[interpolate=false,width=1.2\textwidth]{bild}{RobotEraBG.png} 
+\setbeamertemplate{background}{\pgfuseimage{bild}}
+\end_preamble
+\options t
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman lmodern
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 1
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Robot-Era: First experimental loop"
+\pdf_author "Sebastian Rockel"
+\pdf_subject "Kick-Off meeting Robot-Era, Feb 2012"
+\pdf_keywords "Robot-Era, Domestic Platform, Work Package 4, Task, Deliverable"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_amsmath 2
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation skip
+\defskip medskip
+\quotes_language danish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\listings_params "basicstyle={\sffamily\small},breakatwhitespace=true,breaklines=true,captionpos=b,commentstyle={\color{red}\emph},escapeinside={\%*}{*)},frameshape={RYR}{y}{y}{RYR},identifierstyle={\color{black}\bfseries},keywordstyle={\color{blue}\bfseries},numbers=none,numbersep=5pt,numberstyle={\color{black}\tiny},showspaces=false,showstringspaces=false,showtabs=false,stepnumber=1,stringstyle={\ttfamily\color{red}\bfseries\emph},tabsize=2"
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Title..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "subs/title/title_1stYWP4.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Outline..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Outline
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Content..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Description of Activities
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Description of Activities
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Activities
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<1->
+\end_layout
+
+\end_inset
+
+
+\emph on
+ Specifications and middleware architecture of the domestic robotic platform
+\emph default
+ (D4.1, within Workgroup 1)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+technical communicating with robot arm suppliers
+\end_layout
+
+\begin_layout Itemize
+HW + SW integration design
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+<2->
+\end_layout
+
+\end_inset
+
+ROS tabletop segmentation + manipulation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Using ROS object_manipulation stack
+\end_layout
+
+\begin_layout Itemize
+using ROS arm_navigation stack
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+integration of the OPML planner
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://www.ros.org/wiki/ompl"
+target "http://www.ros.org/wiki/ompl"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ (obstacle avoidance, IK)
+\end_layout
+
+\begin_layout Itemize
+integration of MoveIt!
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://moveit.ros.org/"
+target "http://moveit.ros.org/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ (motion planner, arm configuration)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+open web page and show high level functionality
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout BeginFrame
+Activities (cont'd)
+\end_layout
+
+\begin_layout Itemize
+Other sensors (Camera, PTU)
+\end_layout
+
+\begin_layout Itemize
+Mira-ROS Adapter
+\end_layout
+
+\begin_layout Itemize
+Simulation and Robot Model
+\end_layout
+
+\begin_layout Itemize
+Using experience from FP7 project 
+\emph on
+RACE
+\emph default
+, which involves
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+(3D) obstacle avoidance
+\end_layout
+
+\begin_layout Itemize
+navigation + localization
+\end_layout
+
+\begin_layout Itemize
+(simple hierarchical) task planning (JSHOP2)
+\end_layout
+
+\begin_layout Itemize
+parallel task execution
+\end_layout
+
+\begin_layout Itemize
+tabletop segmentation (and object detection)
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "http://youtu.be/WKL_AkyU8MQ"
+target "http://youtu.be/WKL_AkyU8MQ"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+object recognition (via household database)
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Robot Architecture Solutions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Robot Architecture Solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Architecture
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/RobotEra_Middleware.png
+	lyxscale 69
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Architecture cont'd
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/MIRA-ROS-Connection-v0.1.pdf
+	lyxscale 75
+	width 100text%
+	BoundingBox 5bp -30bp 837bp 540bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Architecture cont'd
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+GUI
+\emph default
+ for supervision, debugging, test controlling
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+PEIS
+\emph default
+ is the the interface to the PEIS Ecology
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Planner 
+\emph default
+subsumes tasks into subtasks and re-plans if something fails (included in
+ PEIS?)
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Database
+\emph default
+ holds information about objects in order to recognize them (interfaced
+ by the ROS tabletop stack)
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+State machine
+\emph default
+ (ROS) will be realized by the SMACH (ROS python) library
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Architecture cont'd
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Perception
+\emph default
+ (ROS) includes ROS tabletop recognition and table detection and is available
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+sensory data will be retrieved by the ASUS (Kinect)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Manipulation
+\emph default
+ (ROS) is available in the ROS manipulation stack
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the Jaco Arm model is being integrated
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\emph on
+Adapter
+\emph default
+ provides transparent communication between ROS and MIRA
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+translates between Services (RPC), Actions (Callbacks) and Messages
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Robot Integration Solutions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Robot Integration Solutions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Scitos Head Integration
+\end_layout
+
+\begin_layout Standard
+Some before after pictures here
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout BeginFrame
+Robot Arm Kinova Jaco
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "50col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Itemize
+payload 1.5 kg, weight 5.7 kg
+\end_layout
+
+\begin_layout Itemize
+(horizontal) range of 0.9 m
+\end_layout
+
+\begin_layout Itemize
+fixed 3 finger gripper
+\end_layout
+
+\begin_layout Itemize
+USB (CAN) interface
+\end_layout
+
+\begin_layout Itemize
+fall-back joystick control possible
+\end_layout
+
+\begin_layout Itemize
+arm loses its position when powered-off, nevertheless several park positions
+ available
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/jacoKinovaG5.png
+	lyxscale 50
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Robot Arm Kino Jaco cont'd
+\end_layout
+
+\begin_layout Itemize
+ROS API available for Ubuntu (11.04) and ROS Electric (migrated to Fuerte
+ and 12.04)
+\end_layout
+
+\begin_layout Itemize
+basically a ROS wrapper for the (Windows) proprietary kinematic controller
+ libraries
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+uses the Linux Mono project
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+provides a 3D model for visualization in RViz
+\end_layout
+
+\begin_layout Itemize
+controllable by setting each interpolation point's velocity
+\end_layout
+
+\begin_layout Itemize
+official release of the ROS driver is planned for autumn (Sep-Dec?) 2012
+\end_layout
+
+\begin_layout Itemize
+driver development is done at a German university and direct developer contact
+ is possible
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout BeginFrame
+Touch Interface
+\end_layout
+
+\begin_layout FrameSubtitle
+related to T4.4 'Design of interfaces for Human Robot Interaction'
+\end_layout
+
+\begin_layout Itemize
+using a ROS node to send commands to the robot
+\end_layout
+
+\begin_layout Itemize
+node receives command via the network from the tablet
+\end_layout
+
+\begin_layout Itemize
+UHAM made some experiments with using an iPad to control a humanoid 5-finger
+ hand
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+can be extended by a Robot-Era (domestic) centric GUI
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Issues
+\end_layout
+
+\begin_layout Itemize
+3D collision avoidance (without tilting laser)
+\end_layout
+
+\begin_layout Itemize
+PEIS-ROS bridge needed
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Kinect height of 1.1 m and thus ca.
+ 0.4 m above table plane might be not sufficient to segment (high) objects
+ on top of the table (better place it on top of the robot at 1.6 to 1.7 m)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Arm height of ca.
+ 1.1 m might reduce collision free position when manipulation on the tabletop
+\end_layout
+
+\begin_layout Itemize
+establish close Kinova Jaco developer contact
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Simulation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Simulation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+ROS Gazebo Simulation
+\end_layout
+
+\begin_layout Itemize
+will there be the test environment available as Gazebo world? (ORU, SSSA?)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Schedule
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Subsection
+Person MonthPerson Month
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/PersonMonth.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Deliverables
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/Deliverables.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Milestones
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/MS1.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../images/MS2.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Tasks
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/oben.png
+	lyxscale 50
+	width 110text%
+	BoundingBox 70bp 0bp 1077bp 32bp
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../images/unten.png
+	lyxscale 50
+	width 110text%
+	BoundingBox 70bp 0bp 1079bp 162bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.1 Set-up of the robotic platform for domestic environments
+\end_layout
+
+\begin_layout FrameSubtitle
+UHAM, SSSA, MLAB, UOP, STM, M3-44
+\end_layout
+
+\begin_layout Itemize
+integrate mobile platform, robotic arms and end-effectors (payload etc.
+ according to WP2 criteria)
+\end_layout
+
+\begin_layout Itemize
+integrate communication module (for connectivity with 
+\emph on
+AmI
+\emph default
+)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+What's this
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+integrate additional sensors (stereo cameras, infra-red?)
+\end_layout
+
+\begin_layout Itemize
+integrate HRI (touch screen, microphone, speakers, LED (see T4.4)
+\end_layout
+
+\begin_layout Itemize
+integrate additional HW (handle, case, tray?)
+\end_layout
+
+\begin_layout Itemize
+integrate security mechanisms (security buttons, bumpers)
+\end_layout
+
+\begin_layout Itemize
+implement friendly, acceptable cover (see WP2)
+\end_layout
+
+\begin_layout Itemize
+define middleware architecture
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.2 Design of control strategies for navigation
+\end_layout
+
+\begin_layout FrameSubtitle
+MLAB, RT, SSSA, M3-44
+\end_layout
+
+\begin_layout Itemize
+measure and integrate robot characteristics (shape, dynamics) into the navigatio
+n stack 
+\emph on
+(CogniDrive
+\emph default
+)
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+What provides it?: Robust Navigation with topological maps
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+design people tracking and following
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+face tracking (OpenCV, pi_facetracker?)
+\end_layout
+
+\begin_layout Itemize
+motion tracking
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+object trajectory prediction
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.3 Design of control strategies for grasping and manipulation
+\end_layout
+
+\begin_layout FrameSubtitle
+UHAM, UOP, M3-44
+\end_layout
+
+\begin_layout Itemize
+object detection via stereo-vision (Kinect), SIFT-feature, 3D laser ranger
+\end_layout
+
+\begin_layout Itemize
+learning manipulation strategies (object ontology), handle unknown objects
+\end_layout
+
+\begin_layout Itemize
+use results of hierarchical task network (HTN) planning algorithm
+\end_layout
+
+\begin_layout Itemize
+image processing and detecting offline-trained common objects
+\end_layout
+
+\begin_layout Itemize
+apply offline-learned grasps (later also online)
+\end_layout
+
+\begin_layout Itemize
+integrate online learning manipulation and linguistic architecture (
+\emph on
+UOP
+\emph default
+)
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.4 Design of interfaces for Human Robot Interaction
+\end_layout
+
+\begin_layout FrameSubtitle
+UOP, RT, M3-44
+\end_layout
+
+\begin_layout Itemize
+investigate sophisticated HRI (via screen, e.g.
+ emotional state, language)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+wireless tablet with suited GUI?
+\end_layout
+
+\begin_layout Itemize
+control typical tasks, e.g.
+ call robot, get out the trash bin, initiate plastic bag catching from shop
+ etc.
+\end_layout
+
+\begin_layout Itemize
+provide information about the (ambient) sensor system to the user
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+investigate natural language interaction
+\end_layout
+
+\begin_layout Itemize
+explore Julius speech recognition system
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.5 Early prototype integration and implementation of functionalities
+\end_layout
+
+\begin_layout FrameSubtitle
+UHAM, SSSA, UOP, MLAB, RT, M7-9
+\end_layout
+
+\begin_layout Itemize
+integrate outcomes of previous tasks into robotic platform (navigation,
+ manipulation, interaction, learning)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+SW and firmware integration for different parts
+\end_layout
+
+\begin_layout Itemize
+Control strategy (high-level)
+\end_layout
+
+\end_deeper
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.6 Preparation of the domestic robotic platform for the first experimental
+ loop
+\end_layout
+
+\begin_layout FrameSubtitle
+UHAM, MLAB, UOP, M10-12
+\end_layout
+
+\begin_layout Itemize
+prepare robotic platform for experiments in Italy and Sweden
+\end_layout
+
+\begin_layout Itemize
+shipping
+\end_layout
+
+\begin_layout Itemize
+testing
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+T4.7 Refinement and development for the second experimental loop
+\end_layout
+
+\begin_layout FrameSubtitle
+UHAM, UOP, M30-32
+\end_layout
+
+\begin_layout Itemize
+integrate results of first experimental loop for improvements (T4.1-4.5)
+\end_layout
+
+\begin_layout EndFrame
+\begin_inset Note Note
+status collapsed
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Issues
+\end_layout
+
+\begin_layout Itemize
+Robot mounts: handle, tray, case?
+\end_layout
+
+\begin_layout Itemize
+Scenario (room organization, furniture) for real test and simulation
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+input environment from Örebro, Peccioli?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What sensors are needed?
+\end_layout
+
+\begin_layout Itemize
+Interfaces to CogniDrive
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+WP?
+\end_layout
+
+\end_inset
+
+ and AmI
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+WP?
+\end_layout
+
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace -2em
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../images/RobotEra_Middleware.png
+	lyxscale 69
+	width 70text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace -2em
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Appendix..
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset CommandInset include
+LatexCommand include
+filename "subs/appendix_presentation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+Work Package Participation UHAM
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Work Package
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Person Month
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Backup
+\end_layout
+
+\begin_layout Itemize
+face recognition details
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\end_body
+\end_document
