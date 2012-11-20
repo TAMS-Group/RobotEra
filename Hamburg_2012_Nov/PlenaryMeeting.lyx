@@ -1595,6 +1595,12 @@ prepare robotic platform for experiments in Italy and Sweden
 shipping
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+(box sent from MLAB to ORU with stop at UHAM)
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 testing
 \end_layout
@@ -1980,18 +1986,6 @@ Person Month
 \end_inset
 
 
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
-\begin_layout BeginFrame
-Backup
-\end_layout
-
-\begin_layout Itemize
-face recognition details
 \end_layout
 
 \begin_layout EndFrame
