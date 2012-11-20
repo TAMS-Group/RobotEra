@@ -117,7 +117,7 @@ Title..
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "subs/title/title_1stYWP4.lyx"
+filename "subs/title/title_plenarymeet.lyx"
 
 \end_inset
 
@@ -167,167 +167,58 @@ Content..
 
 \end_layout
 
-\begin_layout BeginFrame
-Technical Tutorial
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
+\begin_layout Section
+Summary of the Technical Tutorial
+\begin_inset Note Note
+status open
 
 \begin_layout Plain Layout
-
-<0>
+Description of Activities
 \end_layout
 
 \end_inset
 
-[9:00] Welcome to the tutorial
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<1->
-\end_layout
-
-\end_inset
-
-[9:15] Introduction on tutorial and agenda
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<1->
-\end_layout
-
-\end_inset
-
-[9:30] Jaco arm control with ROS
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<2->
-\end_layout
-
-\end_inset
-
-[10:30] Break & Informal Discussion
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<2->
-\end_layout
-
-\end_inset
-
-[11:00] Simulation: Scitos, Jaco and working with Gazebo
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<3->
-\end_layout
-
-\end_inset
-
-[12:30-13:30] Lunch & Informal Discussion
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<3->
-\end_layout
-
-\end_inset
-
-[13:30] MIRA-ROS Adapter
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<4->
-\end_layout
-
-\end_inset
-
-[15:00-15:30] Break & Informal Discussion
-\end_layout
-
-\begin_layout Itemize
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-<4->
-\end_layout
-
-\end_inset
-
-[15:30-17:00] Controlling PTU, Camera and ASUS (Kinect), Face Recognition
-\end_layout
-
-\begin_layout Itemize
-[overflow] Extended simulation demo, RACE demo (PR2), PR2 object manipulation
- demo
-\end_layout
-
-\begin_layout EndFrame
 
 \end_layout
 
 \begin_layout BeginFrame
-Technical Tutorial (cont'd)
+Domestic Platform (w/o cover)
 \end_layout
 
-\begin_layout Itemize
-Jaco arm control with ROS
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/sebastian/RobotEra/images/scitos_jaco_overview.png
+	height 85theight%
+
+\end_inset
+
+
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Introduction on Jaco arm
+\begin_layout BeginFrame
+Jaco Arm Control with ROS
+\end_layout
+
+\begin_layout FrameSubtitle
+Johannes Liebrecht
 \end_layout
 
 \begin_layout Itemize
 C#-library API
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
-ROS stack overview
+ROS stack hands-on
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+limited funcitonality (no official release yet, last info: autumn 2012)
+\end_layout
+
 \begin_layout Itemize
 API
 \end_layout
@@ -342,46 +233,124 @@ topics and message format
 
 \end_deeper
 \begin_layout Itemize
-Outlook
-\end_layout
-
-\begin_layout Itemize
-Demo
-\end_layout
-
-\end_deeper
-\begin_layout BeginFrame
-Technical Tutorial (cont'd)
-\end_layout
-
-\begin_layout Itemize
-Simulation: Scitos, Jaco and working with Gazebo
+planned to integrate the stack with OMPL into the ROS perception manipulation
+ pipeline
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Gazebo overview
+circumvent Kinove IK (long term)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+basic jaco control integrated
 \end_layout
 
 \begin_layout Itemize
-Overview of Scitos URDF and Gazebo model
-\end_layout
-
-\begin_layout Itemize
-Demo
-\end_layout
-
-\begin_layout Itemize
-*Outlook
-\end_layout
-
-\begin_layout Itemize
-*Discussion about scenarios (robot handover, HRI, human simulation)
+TBD: better mount position on the robot base (arm workspace)
 \end_layout
 
 \end_deeper
 \begin_layout BeginFrame
-Technical Tutorial (cont'd)
+ROS Model and Simulation
+\end_layout
+
+\begin_layout FrameSubtitle
+Norman Hendrich
+\end_layout
+
+\begin_layout Itemize
+Gazebo model of the Scitos (domestic) 'doro' with all relevant sensors (cameras,
+ PTU etc.) with support of Metralabs
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Gazebo model of the Jaco arm (support from Kinova)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Scitos URDF (xml) and Gazebo model (visual and parameters)
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+integrated in ROS stack name 'robotera', with packages:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+doro_description
+\end_layout
+
+\begin_layout Itemize
+doro_gazebo_plugins
+\end_layout
+
+\begin_layout Itemize
+doro_teleop (Joystick control via PSP controller)
+\end_layout
+
+\begin_layout Itemize
+doro_control_gui
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+UHAM will be provided via a public repository (Robot-Era partners only,
+ due to Kinova NDA; Metralabs?)
+\end_layout
+
+\begin_layout Itemize
+how to launch the gazebo world, see slides from Norman Hendrich
+\end_layout
+
+\begin_layout Itemize
+TODO: Integrate state-of-the-art FK/ (interative) IK
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+*Discussion about scenarios (robot handover, HRI, human simulation)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout BeginFrame
+ROS Model and Simulation (cont'd)
+\end_layout
+
+\begin_layout FrameSubtitle
+Norman Hendrich
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename /Users/sebastian/RobotEra/images/scitos_simulation.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+MIRA-ROS Adapter (cognidrive_ros)
+\end_layout
+
+\begin_layout FrameSubtitle
+Ben Adler
 \end_layout
 
 \begin_layout Itemize
@@ -390,68 +359,66 @@ MIRA-ROS Adapter
 
 \begin_deeper
 \begin_layout Itemize
-Intorduction to MIRA and ROS concepts
+connecting MIRA (especially cognidrive) and ROS
 \end_layout
 
 \begin_layout Itemize
-Comparison (MIRA-ROS)
+enabling to control scitos base via ROS
 \end_layout
 
 \begin_layout Itemize
-Aproach for the Adapter
+enabling receiving MIRA provided sensor data (odometry, laser etc.)
 \end_layout
 
 \begin_layout Itemize
-Outlook
+more details tomorrow afternoon (presentation cognidrive and adapter)
 \end_layout
 
 \end_deeper
 \begin_layout BeginFrame
-Technical Tutorial (cont'd)
+Working with the Scitos' Sensors
+\end_layout
+
+\begin_layout FrameSubtitle
+Denis Klimentjew, Hannes Bistry, Liwei Zhang
 \end_layout
 
 \begin_layout Itemize
-Controlling PTU, Camera and ASUS (Kinect), Face Recognition
+ASUS Xtion Pro Live
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Introduction on PTU, Camera, ASUS
-\end_layout
-
-\begin_layout Itemize
-Present work on Camera
-\end_layout
-
-\begin_layout Itemize
-Demo (Camera, *PTU, Face Recognition)
+ROS tabletop detection + recognition
 \end_layout
 
 \end_deeper
-\begin_layout BeginFrame
-Technical Tutorial (cont'd)
-\end_layout
-
 \begin_layout Itemize
-[overflow]
+(Stereo) Camera System accessable via ROS gscam
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Extended simulation demo
-\end_layout
-
-\begin_layout Itemize
-RACE demo (PR2)
-\end_layout
-
-\begin_layout Itemize
-PR2 object manipulation demo
+has been intrinsic calibrated
 \end_layout
 
 \end_deeper
-\begin_layout Section
-Description of Activities
+\begin_layout Itemize
+FLIR PTU46-17.5
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Interface (C++) exists
+\end_layout
+
+\begin_layout Itemize
+TODO: ROS wrapper
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+TODO complete robot calibration (sensors and arm)
 \end_layout
 
 \begin_layout Standard
@@ -465,6 +432,96 @@ Description of Activities
 \end_inset
 
 
+\end_layout
+
+\begin_layout BeginFrame
+Working with the Scitos' Sensors (cont'd)
+\end_layout
+
+\begin_layout FrameSubtitle
+Sensor Head Redesign
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename ../images/IMG_3508.JPG
+	lyxscale 7
+	width 48text%
+	BoundingBox 0bp 0bp 800bp 530bp
+	clip
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../images/IMG_3514.JPG
+	lyxscale 5
+	width 48text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout EndFrame
+
+\end_layout
+
+\begin_layout BeginFrame
+Working with the Scitos' Sensors (cont'd)
+\end_layout
+
+\begin_layout FrameSubtitle
+Face Recognition
+\end_layout
+
+\begin_layout Itemize
+detect and recognize faces
+\end_layout
+
+\begin_layout Itemize
+uses 2D image for (OpenCV) face detectino
+\end_layout
+
+\begin_layout Itemize
+fusion of depth information (3D) to reconstruct the 3D position of the head
+ with respect to the camera
+\end_layout
+
+\begin_layout BeginFrame
+Working with the Scitos' Sensors (cont'd)
+\end_layout
+
+\begin_layout FrameSubtitle
+Face Recognition (cont'd)
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Graphics
+	filename /Users/sebastian/RobotEra/images/face_recognition_liwei2.png
+	width 80text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+General Remarks
+\end_layout
+
+\begin_layout Itemize
+Ubuntu 12.4 (LTS)
+\end_layout
+
+\begin_layout Itemize
+ROS Fuerte
 \end_layout
 
 \begin_layout BeginFrame
@@ -685,7 +742,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/D7.1-RE_full_arch.jpg
+	filename ../images/D7.1-RE_full_arch.jpg
 	lyxscale 50
 	height 80theight%
 
@@ -723,7 +780,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/re_sw_architecture_det.fig
+	filename ../images/re_sw_architecture_det.fig
 	height 80theight%
 
 \end_inset
@@ -861,39 +918,6 @@ Robot Integration Solutions
 
 \end_layout
 
-\begin_layout BeginFrame
-Scitos Head Integration
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/IMG_3508.JPG
-	lyxscale 7
-	width 48text%
-	BoundingBox 0bp 0bp 800bp 530bp
-	clip
-
-\end_inset
-
-
-\begin_inset space \hfill{}
-\end_inset
-
-
-\begin_inset Graphics
-	filename /informatik/home/rockel/tams/Projekte/RobotEra/Deliverables/image/IMG_3514.JPG
-	lyxscale 5
-	width 48text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout EndFrame
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Note Note
 status collapsed
@@ -993,6 +1017,10 @@ status collapsed
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
 \begin_layout BeginFrame
 Robot Arm Kino Jaco cont'd
 \end_layout
@@ -1028,6 +1056,11 @@ official release of the ROS driver is planned for autumn (Sep-Dec?) 2012
 \begin_layout Itemize
 driver development is done at a German university and direct developer contact
  is possible
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
