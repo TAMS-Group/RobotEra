@@ -1,0 +1,71 @@
+\frametitle {Befehle in \texttt{tamsBeamer}}
+  Stringdefinitionen
+  \begin{itemize}
+  \item \verb+\foottitle{+\syn{text}\verb+}+\\
+Titel in der Fu"szeile bei Option \alert{\texttt{conference}}
+  \item \verb+\email{+\syn{name@...}\verb+}+\\
+Definiert die Mail Adresse f"ur Befehl \alert{\texttt{contactframe}}
+  \end{itemize}
+
+\vfill
+  Frames
+  \begin{itemize}
+  \item \verb+\contactframe[+\syn{title}\verb+]+\\
+"`Letzte Seite"' bei Vortr"agen, wiederholt \texttt{author},
+\texttt{email} und \texttt{institution}, optionaler Frametitle
+\syn{title}
+  \end{itemize}
+
+\framebreak
+  Verschiedene Befehle
+  \begin{itemize}
+  \item \verb+\capText{+\syn{text}\verb+}+\\
+tiny Text f"ur Bildunterschriften, Anmerkungen etc.
+  \item \verb+\surl{+\syn{url}\verb+}+\\
+small URL (Typewriter Font, startet Browser) aus Paket URL
+  \item \verb+\dqbox{+\syn{textW}\verb+}+\\
+Textverweis auf dar"uberliegende Zeile, zentriert in einer Box
+mit der Breite von \syn{textW}
+  \item \verb+\txtbox{+\syn{textW}\verb+}{+\syn{text}\verb+}+\\
+\syn{text} wird linksb"undig in eine Box mit der Breite
+von \syn{textW} gesetzt
+  \item \verb+\grad+ Gradzeichen
+  \end{itemize}
+
+\framebreak
+  Abst"ande und Umbr"uche
+  \begin{itemize}
+  \item Abst"ande oberhalb, bzw.~nach aktueller Zeile
+    \begin{tabularx}{\linewidth}[t]{@{}p{20mm}X}
+\verb+\lvskip+ & baselineskip, eine Zeile\\
+\verb+\svskip+ & smallskipamount\\
+\verb+\mvskip+ & medskipamount\\
+\verb+\bvskip+ & bigskipamount
+    \end{tabularx}
+  \item Abst"ande nach aktueller Zeile und Zeilenumbruch
+    \begin{tabularx}{\linewidth}[t]{@{}p{20mm}X}
+\verb+\snewlin+ & smallskipamount\\
+\verb+\mnewlin+ & medskipamount\\
+\verb+\bnewlin+ & bigskipamount
+    \end{tabularx}
+  \end{itemize}
+
+\framebreak
+  Grafikdateien
+  \begin{itemize}
+  \item \verb+\reducedgraphics[+\syn{options}\verb+]{+\syn{file}%
+\verb+}{+\syn{wd}\verb+}{+\syn{ht}\verb+}+\\
+\texttt{includegraphics} in (k"unstlich verkleinerte) Box mit den
+Dimensionen \syn{wd}$\times$\syn{ht}
+  \item \verb+\picturegraphics[+\syn{options}\verb+]{+\syn{file}%
+\verb+}{+\syn{x}\verb+,+\syn{y}\verb+}+\\
+\texttt{includegraphics} in \texttt{picture}-Umgebung der Gr"o"se
+0$\times$0
+\begin{itemize}
+\item \syn{x} ist der horizontale Offset (nach rechts)
+\item \syn{y} ist der \txtbox{horizontale}{vertikale} Offset (nach oben)
+\item Offsets werden ohne Einheit $[mm]$ angegeben
+\item \syn{options} Optionen von \texttt{includegraphics}
+\item \syn{file} Dateiname
+\end{itemize}
+  \end{itemize}

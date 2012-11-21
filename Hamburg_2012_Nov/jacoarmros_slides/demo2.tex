@@ -1,0 +1,196 @@
+\documentclass[t]{beamer}
+%\usepackage{multimedia}		% for movies, sounds, animations...
+\usepackage[ngerman]{babel}		% new german
+\usepackage[utf8]{inputenc}		% input...
+
+\usepackage[cinacsWZ, blockRound, cinacs, conference]{tamsBeamer}
+%-----------------------------------------------------------------------------
+%-- options		------------------------------------------------------
+%			tams	|	- TAMS		publication
+%			cinacs		- CINACS	publication
+%			engl		- english strings	[german]
+%			uniWZ	|	- uni		watermark
+%			tamsWZ	|	- tams+uni	watermark
+%			cinacsWZ	- cinacs+uni	watermark
+%			secToc	|	- toc repetition at each section
+%			secTocA		- -"-, all sections: show
+%					  replacement for toc in short docs
+%			subsecToc	- toc repetition at each subsection
+%			secNum  	- (sub)-section numbering
+%			fullstep	- always step through items
+%			noFoot		- footline	off
+%			noPage		- page numbers	off
+%			noAuth		- author	off
+%			conference	- footline with \foottitle{...}
+%			blockBG	|	- block, example etc. background
+%			blockRound	- -"-, rounded+shadow
+
+
+% fonts definitions			--------------------------------------
+% ----------------------------------------------------------------------------
+% default: cmss, OT1 fontenc		good with UniHH font "The Sans"
+%					-> don't change fonts!
+%\usepackage{times}			% other fonts
+%\usepackage[T1]{fontenc}		%
+
+% document definitions			--------------------------------------
+% ----------------------------------------------------------------------------
+\title[Konferenzfolien]			% title		-- option: short
+  {Konferenzfolien mit \texttt{beamer}}
+\subtitle[Beispiele]			% subtitle	-- option: short
+  {Beispiele zum Layout}
+\foottitle{Alternatives Layout f\"ur Konferenzen}	% stringdefinition
+
+\author[A.~M\"ader]{Andreas M\"ader}
+\email{maeder@informatik.uni-hamburg.de}		% stringdefinition
+
+%\author[AutorA, AutorB]		% author	-- option: short
+% {A.~Autor\inst{1} \and B.~Autor\inst{2}}%		-- option: \inst{...}
+% style option: [tams] predefines institute...
+% or define \institute{...}
+%					% \inst{...} for different institutions
+%\institute[Universities A and B]	% institution	-- option: short
+%{ \inst{1}%
+%  University of A\\
+%  Department of A
+%  \and
+%  \inst{2}%
+%  University of B\\
+%  Department of B}
+
+\date[04-nov-2007]			% event/date	-- option: short
+  {04.~November 2007}
+
+\subject{TAMS, LaTeX, Folien}		% subject	-- option for pdf
+
+
+% document starts here			--------------------------------------
+% ----------------------------------------------------------------------------
+\begin{document}
+
+% titlepage				--------------------------------------
+%\frame[plain]{\titlepage}		% suppress head- and footlines
+\frame{\titlepage}
+
+% toc					--------------------------------------
+\begin{frame}
+  \frametitle{\tocName}
+  \tableofcontents
+  %\tableofcontents[pausesections]	% step through sections
+\end{frame}
+
+% intro / abstract etc.			--------------------------------------
+\begin{frame}
+  \frametitle{Vorwort}
+  Diese Folien sollen einige Optionen des alternatives Layouts zeigen.
+  Sie wurden erstellt mit \alert{\texttt{cinacs, cinacsWZ, blockRound,
+	conference}}\mnewlin
+  Die allgemeine Beschreibung zu \texttt{tamsBeamer} steht in \texttt{demo1...}
+\end{frame}
+
+
+% static Contents			--------------------------------------
+% ----------------------------------------------------------------------------
+\section{Statische Elemente}
+
+\begin{frame}
+  \frametitle{\insertsection}
+  \framesubtitle{Listen}
+  Die Folien werden mit den normalen \LaTeX{}-Befehlen gesetzt.
+
+  \begin{itemize}
+  \item \texttt{itemize}
+  \item \ldots
+  \end{itemize}
+
+  \begin{enumerate}
+  \item \texttt{enumerate}
+  \item \ldots
+  \end{enumerate}
+
+  \begin{description}
+  \item[desc1] \texttt{description}
+  \item[\ldots] \ldots
+  \end{description}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \frametitle{\insertsection}
+  \framesubtitle{block-"ahnliche Umgebungen}
+  \small
+
+  \begin{block}{"Uberschrift}
+  \texttt{block} Lorem ipsum dolor sit amet.
+  \end{block}
+
+  \begin{alertblock}{"Uberschrift}
+  \texttt{alertblock} Lorem ipsum dolor sit amet.
+  \end{alertblock}
+
+  \begin{exampleblock}{"Uberschrift}
+  \texttt{exampleblock} Lorem ipsum dolor sit amet.
+  \end{exampleblock}
+
+  \framebreak
+  \begin{definition}
+  \texttt{definition} Lorem ipsum dolor sit amet.
+  \end{definition}
+
+  \begin{example}
+  \texttt{example} Lorem ipsum dolor sit amet.
+  \end{example}
+
+  \begin{theorem}
+  \texttt{theorem} Lorem ipsum dolor sit amet.
+  \end{theorem}
+
+  \begin{proof}
+  \texttt{proof} Lorem ipsum dolor sit amet.
+  \end{proof}
+\end{frame}
+
+\begin{frame}
+  \frametitle{\insertsection}
+  \framesubtitle{weitere Umgebungen}
+  \texttt{figure} und \texttt{table} werden wie gewohnt
+	benutzt:\footnote{Unterschriften mit \texttt{caption}.}
+  \begin{figure}
+    \includegraphics[height=8mm]{logoTAMS}
+    \caption{TAMS-Logo}
+  \end{figure}
+
+  Mehrspaltige \texttt{column}-Umgebungen:
+  \begin{columns}[t]
+    \begin{column}{4cm}
+	Hier stehen\\zwei Zeilen.
+    \end{column}
+    \begin{column}{4cm}
+	Eine Zeile (top-aligned)
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}[containsverbatim]
+  \frametitle{\insertsection}
+  \framesubtitle{\texttt{verbatim}-Umgebungen}
+  Auch andere Umgebungen sind wie gewohnt definiert:
+  \texttt{verbatim}, \texttt{semiverbatim}, \texttt{verse},
+  \texttt{quotation} etc.
+  \bvskip
+
+  \texttt{semiverbatim} ist eine verbatim-Umgebung in der die
+  Sonderzeichen \verb+\ { }+ ihre Bedeutung behalten, so dass
+  LaTeX-Befehle innerhalb der Umgebung m"oglich sind.
+
+  \begin{block}{Achtung}
+    \texttt{verbatim}-Umgebungen und der \texttt{verb}-Befehl sind nur
+    m"oglich, wenn der Frame die Option \texttt{containsverbatim} besitzt:\\
+    \verb+\begin{frame}[containsverbatim]+
+  \end{block}
+\end{frame}
+
+% contactframe				--------------------------------------
+% ----------------------------------------------------------------------------
+\contactframe[\ldots Danke]
+
+\end{document}
